@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Itim', cursive;
+  font-size: 14pt;
   background-color: #f6abb6;
 }
 
@@ -21,11 +22,19 @@ header {
 }
 
 header > img {
-  height: 64px;
+  height: 120px;
 }
 
 main {
-  padding: 12px;
+  padding: 24px;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 #page-content {
@@ -40,6 +49,19 @@ main {
 #last-update {
   text-align: right;
   font-style: italic;
+}
+
+p.annotation {
+  font-style: italic;
+}
+
+p.emphasized {
+  font-weight: bold;
+}
+
+main > section:not(:last-child) {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 24px;
 }
 
 /* ==========================================================================
