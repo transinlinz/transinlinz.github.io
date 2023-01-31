@@ -7,41 +7,6 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-body {
-  font-family: 'Itim', cursive;
-  background-color: #f6abb6;
-}
-
-header {
-  position: relative;
-  margin: 0;
-  padding: 12px;
-  text-align: right;
-  background-color: #fff;
-}
-
-header > img {
-  height: 64px;
-}
-
-main {
-  padding: 12px;
-}
-
-#page-content {
-    margin: auto;
-    width: 75%;
-    background-color: #55cefa;
-    border: 2px solid #fff;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-}
-
-#last-update {
-  text-align: right;
-  font-style: italic;
-}
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -121,6 +86,152 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat";
+  font-size: 14pt;
+}
+
+header {
+  background-image: url("../img/pexels-katie-rainbow.jpg");
+
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%;
+  height: 0;
+  padding-top: calc(3744 / 5616 * 100%);
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 28px 14px 14px;
+  font-weight: bold;
+
+  background-image: url("../img/pexels-katie-rainbow.jpg");
+
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trans-shg-logo {
+  flex: 0 0 16vw;
+  min-width: 180px;
+  max-width: 33vw;
+  height: auto;
+  margin-right: 4vw;
+  align-self: center;
+}
+
+nav > ul {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+nav > ul > li {
+  float: left;
+  margin-right: 4vw;
+}
+
+nav > ul > li > a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: .4vw;
+  margin-bottom: 1vw;
+}
+
+nav > ul > li > a:hover {
+  color: #f6abb6;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+  border-bottom: 2px solid #f6abb6;
+}
+
+main {
+  background-color: rgb(60, 65, 78);
+  padding-bottom: 24px;
+}
+
+a {
+  color: #55cefa;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#page-content {
+  margin: auto;
+  margin-bottom: 24px;
+  width: 80%;
+  font-size: 14pt;
+  padding: 24px;
+  background-color: #fff;
+  border-bottom: 2px solid #222;
+}
+
+#page-content > footer {
+  display: none; /* TODO find proper way to align footer at the bottom */
+  background: #ccc;
+}
+
+@media (max-width: 600px) {
+  #page-content {
+    font-size: 12pt;
+    padding: 16px;
+    width: 100%;
+  }
+}
+
+#last-update {
+  text-align: right;
+  font-style: italic;
+}
+
+p.annotation {
+  font-style: italic;
+}
+
+p.emphasized {
+  font-weight: bold;
+}
+
+main > section:not(:last-child) {
+  margin-bottom: 24px;
+}
 
 /* ==========================================================================
    Helper classes
@@ -295,4 +406,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
