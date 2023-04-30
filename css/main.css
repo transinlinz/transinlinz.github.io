@@ -203,6 +203,16 @@ a:hover {
   border-bottom: 2px solid #222;
 }
 
+#page-content ol > li {
+  padding-bottom: 4pt;
+}
+
+#page-content ol > li > em {
+  display: block;
+  font-weight: bold;
+  font-style: normal;
+}
+
 #page-content > footer {
   display: none; /* TODO find proper way to align footer at the bottom */
   background: #ccc;

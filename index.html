@@ -34,144 +34,28 @@
   </head>
   <body>
     <header></header>
+
     <nav>
       <img
         src="img/trans-shg-logo.webp"
         id="trans-shg-logo"
         alt="Trans* SHG Linz Logo"
       />
-      <ul>
-        <li><a href="#">Home</a></li>
+      <ul id="main-menu">
+        <li><a href="#home">Home</a></li>
         <li><a href="#shg">Selbsthilfegruppe</a></li>
+        <li><a href="#code-of-conduct">Gruppenregeln</a></li>
         <li><a href="#meetup">Stammtisch</a></li>
         <li><a href="#wiki">Wissenswertes</a></li>
         <li><a href="#about">Über uns</a></li>
         <li><a href="#legal">Impressum</a></li>
       </ul>
     </nav>
+
     <main>
       <div id="page-content">
-        <div id="last-update">Stand: 16.04.2023</div>
-
-        <section>
-          <h1>Treffen</h1>
-
-          <p>
-            Regeln: Im ganzen ÖGK Gebäude gilt momentan noch für alle
-            FFP2-Maskenpflicht. Die Maske darf nur im Gruppenraum abgenommen
-            werden. Bitte also nicht vergessen immer eine Maske dabei zu haben!
-          </p>
-
-          <p>Anmeldung: via Mail an Lena: <a href="#" class="ml">#</a></p>
-
-          <p>
-            Wir haben auch einen eigenen geschlossenen Discord-Server, dieser
-            ist allerdings nur für Kommunikation der aktiven SHG
-            Teilnehmer*innen untereinander gedacht. Bei Interesse einfach die
-            Gruppenleiterin nach dem Einladungslink beim ersten Besuch in der
-            Selbsthilfegruppe fragen. Wir verschicken keine Einladungslinks per
-            E-Mail!
-          </p>
-        </section>
-        <section>
-          <h2>Noch Fragen?</h2>
-
-          <p>Gerne begrüßen wir dich bei unserem nächsten Treffen!</p>
-          <p class="emphasized">2. Donnerstag im Monat,</p>
-          <p class="emphasized">18:00-20:00 Uhr,</p>
-          <p class="emphasized">Garnisonstraße 1a, 2. Stock, Raum 3*.</p>
-
-          <p>
-            Wenn dir aus diversen Gründen ein schriftlicher Kontakt oder ein
-            persönliches Einzelgespräch lieber ist, schreibe bitte ein kurzes
-            Mail an <a href="#" class="ml">#</a>, um mit der neuen
-            Gruppenleitung Kontakt aufzunehmen. Lena meldet sich dann
-            schnellstmöglich** bei dir.
-          </p>
-
-          <p class="annotation">
-            * Die Trans* SHG Linz / OÖ unterhält kein Büro im Gesundheitsforum
-            der OÖGKK. Persönlicher Kontakt ist daher nur zu den Terminen oder
-            im Einzelgespräch (mit Lena) nach schriftlicher Anfrage möglich.
-          </p>
-          <p class="annotation">
-            ** Bitte bedenke, dass es sich um ein ehrenamtliches Angebot handelt
-            und die Antwort beruflich und familiär bedingt etwas dauern kann.
-          </p>
-        </section>
-        <section>
-          <h2>Trans* + Inter* Stammtisch</h2>
-
-          <p>Unverbindliches Zusatztreffen</p>
-
-          <p>
-            Seit August 2022 gibt auch einen monatlichen Trans*+Inter*
-            Stammtisch der üblicherweise jeden 3. Donnerstag im Monat ab 19:00
-            im Game and Dine (Blumauerstrasse 9, 4020 Linz) stattfindet.
-          </p>
-
-          <p>
-            Der Trans* + Inter* Stammtisch Linz ist eine Möglichkeit sich mit
-            anderen Leuten zu treffen und auszutauschen die Teil des Trans*- und
-            Inter*spektrums sind. Der Begriff Trans* umfasst dabei alle
-            Menschen, angefangen von binärer Transidentität über nicht-binäre
-            wie auch genderfluide Identitäten bis hin zu Leuten die einfach
-            gender non-conforming sind.
-          </p>
-
-          <p>
-            Um Anmeldung wird gebeten über die Stammtisch
-            <a
-              href="https://www.facebook.com/groups/trans.inter.stammtisch.linz/"
-              target="_blank"
-              >Facebook-Gruppe</a
-            >
-            oder den
-            <a
-              href="https://www.instagram.com/trans.inter.stammtisch.linz/"
-              target="_blank"
-              >Instagram-Kanal</a
-            >.
-          </p>
-
-          <p>
-            Wer kein Instagram oder Facebook (mehr) verwendet kann ansonsten
-            einfach ein kurzes E-Mail an die Adresse der Trans* SHG schicken.
-          </p>
-        </section>
-        <section>
-          <h2>Site Under Construction!</h2>
-
-          <p>
-            Sorry für das unfertige Layout! Ich hatte bisher noch keine Zeit die
-            Website ordentlich aufzusetzen. Irgendwann im Frühling dann
-            hoffentlich! 😉
-          </p>
-        </section>
-
-        <section>
-          <h2>Impressum</h2>
-
-          <p>
-            Trans* SHG Linz / Oberösterreich Mitglied des Dachverbands
-            Selbsthilfe OÖ
-          </p>
-
-          <p>Kontaktperson der Trans* SHG:</p>
-          <dl>
-            <dt>Name:</dt>
-            <dd>Lena</dd>
-            <dt>Email:</dt>
-            <dd>
-              <a href="#" class="ml">#</a> (Antwort an Behörden-/Rechtsvertreter
-              binnen 24 Stunden, an Sonstige in der Regel binnen 72 Stunden - es
-              handelt sich um ein ehrenamtliches Projekt.)
-            </dd>
-          </dl>
-
-          <p>
-            Bei Fragen & Anregungen bitte die angegebene Emailadresse verwenden.
-          </p>
+        <section id="content-slot">
+          <!-- PAGE CONTENT -->
         </section>
         <footer>
           <p>&copy; Lena</p>
@@ -182,6 +66,452 @@
         </footer>
       </div>
     </main>
+
+    <template id="home-content">
+      <section>
+        <h1>Treffen</h1>
+
+        <p>
+          Im ganzen ÖGK Gebäude gilt momentan noch für alle FFP2-Maskenpflicht.
+          Die Maske darf nur im Gruppenraum abgenommen werden. Bitte also nicht
+          vergessen immer eine Maske dabei zu haben!
+        </p>
+
+        <p>
+          Nachdem die Covid-Auflagen mittlerweile stark entschärft wurden, gibt
+          es mittlerweile keine Obergrenze für die Gruppengröße. Es ist also
+          keine Anmeldung mehr notwendig. Ihr könnt einfach vorbeikommen!
+        </p>
+
+        <p>
+          Wir haben auch einen eigenen geschlossenen Discord-Server, dieser ist
+          allerdings nur für Kommunikation der aktiven SHG Teilnehmer*innen
+          untereinander gedacht. Bei Interesse einfach die Gruppenleiterin nach
+          dem Einladungslink beim ersten Besuch in der Selbsthilfegruppe fragen.
+          Wir verschicken keine Einladungslinks per E-Mail!
+        </p>
+      </section>
+      <section>
+        <h2>Bitte beachte unsere Gruppenregeln!</h2>
+
+        <p>
+          Um einen möglichst reibungslosen Ablauf der SHG sicherstellen und um
+          für alle die kommen ein sicheres und angenehmes Klima bieten zu können
+          ist es notwendig, dass sich alle an unsere
+          <a href="#code-of-conduct">Gruppenregeln</a> halten. Lies dir daher
+          bitte zuerst unsere <a href="#code-of-conduct">Regeln</a> durch bevor
+          zu einem ersten Treffen vorbei schaust!
+        </p>
+      </section>
+      <section>
+        <h2>Noch Fragen?</h2>
+
+        <p>Gerne begrüßen wir dich bei unserem nächsten Treffen!</p>
+        <p class="emphasized">2. Donnerstag im Monat,</p>
+        <p class="emphasized">18:00-20:00 Uhr,</p>
+        <p class="emphasized">Garnisonstraße 1a, 2. Stock, Raum 3*.</p>
+
+        <p>
+          Wenn dir aus diversen Gründen ein schriftlicher Kontakt oder ein
+          persönliches Einzelgespräch lieber ist, schreibe bitte ein kurzes Mail
+          an <a href="#" class="ml">#</a>, um mit der neuen Gruppenleitung
+          Kontakt aufzunehmen. Lena meldet sich dann schnellstmöglich** bei dir.
+        </p>
+
+        <p class="annotation">
+          * Die Trans* SHG Linz / OÖ unterhält kein Büro im Gesundheitsforum der
+          OÖGKK. Persönlicher Kontakt ist daher nur zu den Terminen oder im
+          Einzelgespräch (mit Lena) nach schriftlicher Anfrage möglich.
+        </p>
+        <p class="annotation">
+          ** Bitte bedenke, dass es sich um ein ehrenamtliches Angebot handelt
+          und die Antwort beruflich und familiär bedingt etwas dauern kann.
+        </p>
+      </section>
+      <section>
+        <h2>Site Under Construction!</h2>
+
+        <p>
+          Sorry für das unfertige Layout! Ich hatte bisher noch keine Zeit die
+          Website ordentlich aufzusetzen. Irgendwann im Frühling dann
+          hoffentlich! 😉
+        </p>
+      </section>
+    </template>
+
+    <template id="shg-content">
+      <section>
+        <h1>Trans* SHG Linz</h1>
+
+        <!-- TODO shg-content + about-content zusammenlegen -->
+
+        <p>
+          Im ganzen ÖGK Gebäude gilt momentan noch für alle FFP2-Maskenpflicht.
+          Die Maske darf nur im Gruppenraum abgenommen werden. Bitte also nicht
+          vergessen immer eine Maske dabei zu haben!
+        </p>
+
+        <p>
+          Nachdem die Covid-Auflagen mittlerweile stark entschärft wurden, gibt
+          es mittlerweile keine Obergrenze für die Gruppengröße. Es ist also
+          keine Anmeldung mehr notwendig. Ihr könnt einfach vorbeikommen!
+        </p>
+
+        <p>
+          Wir haben auch einen eigenen geschlossenen Discord-Server, dieser ist
+          allerdings nur für Kommunikation der aktiven SHG Teilnehmer*innen
+          untereinander gedacht. Bei Interesse einfach die Gruppenleiterin nach
+          dem Einladungslink beim ersten Besuch in der Selbsthilfegruppe fragen.
+          Wir verschicken keine Einladungslinks per E-Mail!
+        </p>
+      </section>
+
+      <section>
+        <h2>Bitte beachte unsere Gruppenregeln!</h2>
+
+        <p>
+          Um einen möglichst reibungslosen Ablauf der SHG sicherstellen und um
+          für alle die kommen ein sicheres und angenehmes Klima bieten zu können
+          ist es notwendig, dass sich alle an unsere
+          <a href="#code-of-conduct">Gruppenregeln</a> halten. Lies dir daher
+          bitte zuerst unsere <a href="#code-of-conduct">Regeln</a> durch bevor
+          zu einem ersten Treffen vorbei schaust!
+        </p>
+      </section>
+
+      <section>
+        <h2>Noch Fragen?</h2>
+
+        <p>Gerne begrüßen wir dich bei unserem nächsten Treffen!</p>
+        <p class="emphasized">2. Donnerstag im Monat,</p>
+        <p class="emphasized">18:00-20:00 Uhr,</p>
+        <p class="emphasized">Garnisonstraße 1a, 2. Stock, Raum 3*.</p>
+
+        <p>
+          Wenn dir aus diversen Gründen ein schriftlicher Kontakt oder ein
+          persönliches Einzelgespräch lieber ist, schreibe bitte ein kurzes Mail
+          an <a href="#" class="ml">#</a>, um mit der neuen Gruppenleitung
+          Kontakt aufzunehmen. Lena meldet sich dann schnellstmöglich** bei dir.
+        </p>
+
+        <p class="annotation">
+          * Die Trans* SHG Linz / OÖ unterhält kein Büro im Gesundheitsforum der
+          OÖGKK. Persönlicher Kontakt ist daher nur zu den Terminen oder im
+          Einzelgespräch (mit Lena) nach schriftlicher Anfrage möglich.
+        </p>
+        <p class="annotation">
+          ** Bitte bedenke, dass es sich um ein ehrenamtliches Angebot handelt
+          und die Antwort beruflich und familiär bedingt etwas dauern kann.
+        </p>
+      </section>
+    </template>
+
+    <template id="code-of-conduct-content">
+      <section>
+        <h1>Gruppenregeln der Trans* SHG Linz</h1>
+
+        <em>Stand: 24. April 2023</em>
+
+        <ol>
+          <li>
+            <em>
+              Alle Dinge, die im Rahmen der Selbsthilfegruppe besprochen werden,
+              sind strikt vertraulich zu behandeln! Was in der Gruppe gesagt
+              wird, bleibt auch in der Gruppe!
+            </em>
+          </li>
+          <li>
+            <em>
+              Transphobie, Rassismus, Behindertenfeindlichkeit,
+              Frauenfeindlichkeit oder ähnliche diskriminierende Ansichten haben
+              in der Gruppe nichts verloren!
+            </em>
+
+            Während saloppe Ausdrucksweisen völlig in Ordnung sind und
+            Wortmeldungen auch nicht immer ganz politisch korrekt ablaufen
+            müssen, sind dennoch jegliche Aussagen mit rassistischem oder gar
+            transphobem Unterton tunlichst zu unterlassen! Weder
+            pauschalisierende Aussagen über Menschengruppen ("Die Ausländer sind
+            alle...") noch abwertende Aussagen über die Geschlechtsidentität
+            oder Geschlechtsausdruck eines Teilnehmenden werden toleriert!
+            Letzteres gilt insbesondere in Bezug auf nicht-binäre Identitäten.
+            Dazu zählen auch reaktionäre Anschauungen, die auch unter dem
+            Begriff "trans medicalism" bekannt sind, die besagen, dass man nur
+            wirklich trans sei, wenn man auch geschlechtsangleichende Maßnahmen
+            anstrebt. Wer diese Ansicht teilt und diese Selbsthilfegruppe
+            besucht, sollte sie also besser für sich behalten. Gleichermaßen
+            sollte es selbsterklärend sein, dass absichtliches Misgendern oder
+            Deadnaming ein klares No-Go ist.
+          </li>
+          <li>
+            <em>
+              Es gilt die Identität(en), Entscheidungen, Erfahrungen und Gefühle
+              anderer zu respektieren und sie nicht einfach zu hinterfragen oder
+              wegzureden.
+            </em>
+
+            Dies gilt ganz besonders bei physischen und psychischen
+            Gewalterfahrungen und dem Erfahren von Diskriminierung. Personen,
+            die diese Themen offen in der Runde ansprechen, machen sich dadurch
+            oft sehr verletzlich und daher ist es von äußerster Wichtigkeit,
+            dass diesem Mut nicht mit Ignoranz oder gar Unverständnis, sondern
+            mit aufrichtigem Mitgefühl begegnet wird. Nur so kann die
+            Selbsthilfegruppe auch ein Safer Space sein, um über seine Probleme
+            offen und möglichst ohne Hemmungen sprechen zu können. Besonders das
+            Herunterspielen und Verharmlosen von Gewalterfahrungen kann
+            Betroffene retraumatisieren, was den Sinn dieser Selbsthilfegruppe
+            völlig konterkariert. Es ist auch unangemessen anderen Teilnehmenden
+            Lösungsansätze, die für einen selbst gut funktionieren oder
+            funktioniert haben, aufzwingen zu wollen - seien sie religiöser oder
+            säkularer Natur. Das Gleiche gilt auch für alle
+            Hobbypsycholog*innen: andere Teilnehmende einfach aufgrund
+            bestimmter Verhaltensmuster oder Symptomatiken unaufgefordert zu
+            diagnostizieren (sei es jetzt mit ADHS, Autismus oder anderem) ist
+            nicht nur sehr unhöflich, sondern auch durchaus anmaßend auch wenn
+            es nur gut gemeint ist.
+          </li>
+          <li>
+            <em>
+              Es spricht grundsätzlich immer nur die Person, die in der Runde
+              gerade das Rederecht hat.
+            </em>
+
+            Es sei denn, es handelt sich explizit um eine offene Runde, wo sich
+            jede*r einfach zu Wort melden kann (das macht eventuell am Ende des
+            Treffens Sinn, wenn schon alle einmal dran waren). Getratsche
+            untereinander, während jemand gerade spricht, ist sehr unhöflich und
+            störend und daher zu unterlassen. Natürlich ist es in Ordnung auf
+            Gesagtes unmittelbar zu Antworten (zB wenn eine Person auf der Suche
+            nach medizinischen Kontakten ist), allerdings sollte sich diese
+            Wortmeldung dann auch direkt auf das Gesagte beziehen und nicht vom
+            eigentlichen Thema ablenken oder in einen Monolog ausarten. Sollte
+            bei einem Thema plötzlich eine wilde Diskussion ausbrechen, ist es
+            meist besser, die Runde vorher noch zu Ende zu bringen und das Thema
+            anschließend noch einmal in einer offenen Runde zur Diskussion zu
+            stellen. So kann sichergestellt werden, dass alle ihre Redezeit
+            hatten, ohne dabei wichtige Themen unter den Tisch fallen zu lassen.
+          </li>
+          <li>
+            <em>
+              Niemand ist verpflichtet, aktiv an der Gruppe teilzunehmen. Was
+              die Teilnehmenden mit der Gruppe teilen und in welchem Ausmaß
+              obliegt alleine ihnen.
+            </em>
+
+            Üblicherweise gibt es zu Beginn des Treffens eine kleine
+            Vorstellrunde, aber sowohl das Nennen des eigenen Namens als auch
+            der verwendeten Pronomen ist optional. Alle Teilnehmenden dürfen so
+            anonym bleiben, wie sie es wünschen.
+          </li>
+          <li>
+            <em>
+              Alle Teilnehmenden sollten etwa gleich lange die Chance bekommen,
+              reden zu dürfen.
+            </em>
+
+            Während es Sinn macht und auch erwünscht ist, zurückhaltenderen oder
+            schüchternen Personen mehr Raum zu geben und sie zu ermutigen mehr
+            aus sich herauszugehen, gilt es umgekehrt für sehr redefreudige
+            Teilnehmende etwas auf die Zeit zu achten. Sofern es sich nicht um
+            eine offene Runde handelt, sollte sich eine Wortmeldung auf maximal
+            5-7 Minuten beschränken, da sonst besonders bei besser besuchten
+            Treffen nicht mehr genug Redezeit für alle anderen übrig bleibt.
+          </li>
+          <li>
+            <em>
+              Diese Gruppe steht grundsätzlich allen Menschen offen, ungeachtet
+              ihrer Geschlechtsidentität oder sexuellen Orientierung - wir sind
+              eine inklusive Selbsthilfegruppe!
+            </em>
+
+            Dadurch sind wir auch offen für alle, die überlegen, ob sie trans
+            sind oder nicht, und geben gerne Unterstützung bei der
+            Selbstfindung. Darüber hinaus kann es für manche auch Sinn machen,
+            am Anfang Begleitpersonen zur Unterstützung mitzunehmen.
+            Gleichzeitig ist es wichtig zu betonen, dass Teilnehmende die sich
+            klar als cis-geschlechtlich identifizieren den anderen in der Gruppe
+            beim Reden den Vortritt lassen sollten, sodass die wesentlichen
+            Themen auch besprochen werden können. Der eigentliche Zweck der
+            Gruppe ist Hilfe zur Selbsthilfe und Austausch unter
+            transgeschlechtlichen bzw. möglicherweise transgeschlechtlichen
+            Menschen und nicht die Aufklärung von cis Personen zum Thema
+            transgender. Für diesen Zweck sollten eigens dafür vorgesehene
+            Treffen vereinbart werden, damit der normale Ablauf der
+            Selbsthilfegruppe dadurch nicht gestört wird.
+          </li>
+          <li>
+            <em>
+              Punkte 1 bis 3 gelten auch beim gemütlichen Zusammensitzen der
+              Selbsthilfegruppe beim Wirt!
+            </em>
+          </li>
+          <li>
+            <em>
+              Bei Verstoß gegen diese Regeln gibt es je nach Schweregrad eine
+              Verwarnung. Bei Nichtbeachtung behält sich die Gruppenleitung vor,
+              Teilnehmende aus der Gruppe auszuschließen.
+            </em>
+
+            Ob ein wiederholter Verstoß gegen die Regeln zu einem Ausschluss
+            führt, hängt immer vom konkreten Fall ab. Während es bei Verstößen
+            gegen die Rededisziplin bei einer Ermahnung bleiben wird, sollte man
+            bei diskriminierenden oder anderweitig respektlosen Aussagen und
+            Verhaltensweisen anderen gegenüber mit weniger Zurückhaltung
+            rechnen.
+          </li>
+          <li>
+            <em>
+              Für den Fall, dass sich Teilnehmende während des Treffens unwohl
+              gefühlt haben, können sie sich jederzeit an die Gruppenleitung
+              wenden.
+            </em>
+
+            Dies kann entweder direkt nach Ende des Treffens sein oder auch per
+            PN auf Discord oder per E-Mail. Auch Feedback ist gerne willkommen.
+          </li>
+        </ol>
+      </section>
+    </template>
+
+    <template id="meetup-content">
+      <section>
+        <h1>Trans* + Inter* Stammtisch</h1>
+
+        <p>Unverbindliches Zusatztreffen</p>
+
+        <p>
+          Seit August 2022 gibt auch einen monatlichen Trans*+Inter* Stammtisch
+          der üblicherweise jeden 3. Donnerstag im Monat ab 19:00 im Game and
+          Dine (Blumauerstrasse 9, 4020 Linz) stattfindet.
+        </p>
+
+        <p>
+          Der Trans* + Inter* Stammtisch Linz ist eine Möglichkeit sich mit
+          anderen Leuten zu treffen und auszutauschen die Teil des Trans*- und
+          Inter*spektrums sind. Der Begriff Trans* umfasst dabei alle Menschen,
+          angefangen von binärer Transidentität über nicht-binäre wie auch
+          genderfluide Identitäten bis hin zu Leuten die einfach gender
+          non-conforming sind.
+        </p>
+
+        <p>
+          Um Anmeldung wird gebeten über die Stammtisch
+          <a
+            href="https://www.facebook.com/groups/trans.inter.stammtisch.linz/"
+            target="_blank"
+            >Facebook-Gruppe</a
+          >
+          oder den
+          <a
+            href="https://www.instagram.com/trans.inter.stammtisch.linz/"
+            target="_blank"
+            >Instagram-Kanal</a
+          >.
+        </p>
+
+        <p>
+          Wer kein Instagram oder Facebook (mehr) verwendet kann ansonsten
+          einfach ein kurzes E-Mail an die Adresse der Trans* SHG schicken (<a
+            href="#"
+            class="ml"
+            >#</a
+          >).
+        </p>
+      </section>
+
+      <section>
+        <h2>Verhaltensregeln</h2>
+
+        Für die <em>Trans* + Inter* Stammtisch Linz</em> gelten auch die Regeln
+        1-3 der
+        <a href="#code-of-conduct">Gruppenregeln der Trans* SHG Linz</a>!
+      </section>
+    </template>
+
+    <template id="wiki-content">
+      <section>
+        <h1>Wiki</h1>
+
+        <em>
+          Hier entsteht künftig ein FAQ und ein Glossar zum Thema Transgender.
+        </em>
+      </section>
+    </template>
+
+    <template id="about-content">
+      <section>
+        <h1>Über uns</h1>
+
+        <p>
+          Wir sind eine Selbsthilfegruppe von und für transidente Menschen und
+          solche die es möglicherweise sein könnten. Der Begriff
+          <em>transident</em> bezieht hier genderfluide und nicht-binäre
+          Identitäten ausdrücklich mit ein!
+        </p>
+
+        <p>
+          Diese Gruppe steht grundsätzlich allen Menschen offen, ungeachtet
+          ihrer Geschlechtsidentität oder sexuellen Orientierung - wir sind eine
+          inklusive Selbsthilfegruppe! (Siehe auch unsere
+          <a href="#code-of-conduct">Gruppenregeln</a>)
+        </p>
+
+        <p>
+          Im ganzen ÖGK Gebäude gilt momentan noch für alle FFP2-Maskenpflicht.
+          Die Maske darf nur im Gruppenraum abgenommen werden. Bitte also nicht
+          vergessen immer eine Maske dabei zu haben!
+        </p>
+
+        <p>
+          Nachdem die Covid-Auflagen mittlerweile stark entschärft wurden, gibt
+          es mittlerweile keine Obergrenze für die Gruppengröße. Es ist also
+          keine Anmeldung mehr notwendig. Ihr könnt einfach vorbeikommen!
+        </p>
+
+        <p>Unsere Treffen finden immer</p>
+        <p class="emphasized">jeden 2. Donnerstag im Monat,</p>
+        <p class="emphasized">von 18:00-20:00 Uhr,</p>
+        <p class="emphasized">in der Garnisonstraße 1a, 2. Stock, Raum 3*.</p>
+        <p>statt. Komm einfach vorbei!</p>
+
+        <p>
+          Wir haben auch einen eigenen geschlossenen Discord-Server, dieser ist
+          allerdings nur für Kommunikation der aktiven SHG Teilnehmer*innen
+          untereinander gedacht. Bei Interesse einfach die Gruppenleiterin nach
+          dem Einladungslink beim ersten Besuch in der Selbsthilfegruppe fragen.
+          Wir verschicken keine Einladungslinks per E-Mail!
+        </p>
+
+        <p>Für Fragen erreicht ihr uns unter: <a href="#" class="ml">#</a></p>
+      </section>
+    </template>
+
+    <template id="legal-content">
+      <section>
+        <h1>Impressum</h1>
+
+        <p>
+          Trans* SHG Linz / Oberösterreich Mitglied des Dachverbands Selbsthilfe
+          OÖ
+        </p>
+
+        <p>Kontaktperson der Trans* SHG:</p>
+        <dl>
+          <dt>Name:</dt>
+          <dd>Lena</dd>
+          <dt>Email:</dt>
+          <dd>
+            <a href="#" class="ml">#</a> (Antwort an Behörden-/Rechtsvertreter
+            binnen 24 Stunden, an Sonstige in der Regel binnen 72 Stunden - es
+            handelt sich um ein ehrenamtliches Projekt.)
+          </dd>
+        </dl>
+
+        <p>
+          Bei Fragen & Anregungen bitte die angegebene Emailadresse verwenden.
+        </p>
+      </section>
+    </template>
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
