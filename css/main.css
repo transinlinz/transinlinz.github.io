@@ -106,8 +106,6 @@ body {
 }
 
 header {
-  background-image: url("../img/pexels-katie-rainbow.jpg");
-
   background-size: contain;
   background-repeat: no-repeat;
 
@@ -129,8 +127,6 @@ nav {
   width: 100%;
   padding: 28px 14px 14px;
   font-weight: bold;
-
-  background-image: url("../img/pexels-katie-rainbow.jpg");
 
   background-size: contain;
   background-repeat: no-repeat;
@@ -167,7 +163,7 @@ nav > ul > li > a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  padding-bottom: .4vw;
+  padding-bottom: 0.4vw;
   margin-bottom: 1vw;
 }
 
@@ -241,6 +237,54 @@ p.emphasized {
 
 main > section:not(:last-child) {
   margin-bottom: 24px;
+}
+
+/* ==========================================================================
+   Break points (adapted five default breakpoints from Tailwind)
+
+   See https://blog.logrocket.com/css-breakpoints-responsive-design/
+   ========================================================================== */
+
+@media (max-width: 640px) {
+  header,
+  nav {
+    background-image: url("../img/pexels-katie-rainbow-640.jpg");
+  }
+}
+
+@media (min-width: 641px) {
+  header,
+  nav {
+    background-image: url("../img/pexels-katie-rainbow-768.jpg");
+  }
+}
+
+@media screen and (min-width: 769px) {
+  header,
+  nav {
+    background-image: url("../img/pexels-katie-rainbow-1024.jpg");
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  header,
+  nav {
+    background-image: url("../img/pexels-katie-rainbow-1280.jpg");
+  }
+}
+
+@media screen and (min-width: 1281px) {
+  header,
+  nav {
+    background-image: url("../img/pexels-katie-rainbow-1536.jpg");
+  }
+}
+
+@media screen and (min-width: 1537px) {
+  header,
+  nav {
+    background-image: url("../img/pexels-katie-rainbow-5616.jpg");
+  }
 }
 
 /* ==========================================================================
