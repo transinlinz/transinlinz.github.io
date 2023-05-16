@@ -214,12 +214,26 @@ a:hover {
   background: #ccc;
 }
 
-@media (max-width: 600px) {
-  #page-content {
-    font-size: 12pt;
-    padding: 16px;
-    width: 100%;
-  }
+.contact-list {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.contact-list li {
+  float: left;
+  margin-right: 8vw;
+  width: 20vw;
+  min-height: 20vw;
+  word-break: break-word;
+}
+
+.contact-list em {
+  font-weight: bold;
+  font-style: normal;
 }
 
 #last-update {
@@ -246,6 +260,20 @@ main > section:not(:last-child) {
    ========================================================================== */
 
 @media (max-width: 640px) {
+  #page-content {
+    font-size: 12pt;
+    padding: 16px;
+    width: 100%;
+  }
+
+  .contact-list li {
+    float: left;
+    margin-top: 4vw;
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+  }
+
   header,
   nav {
     background-image: url("../img/pexels-katie-rainbow-640.jpg");
