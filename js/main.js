@@ -45,6 +45,14 @@ function loadContent(contentId) {
   }
 }
 
+function scrollToPageStart() {
+  const pageHeader = document.querySelector('#page-content h1');
+
+  if (pageHeader) {
+    pageHeader.scrollIntoView();
+  }
+}
+
 function loadContentFromHash() {
   const { hash } = window.location;
 
@@ -60,5 +68,6 @@ function loadContentFromHash() {
 
   window.addEventListener('hashchange', () => {
     loadContentFromHash();
+    //scrollToPageStart(); // FIXME does not work correctly due to fixed header
   });
 })();
