@@ -218,7 +218,7 @@ a:hover {
   background: #ccc;
 }
 
-.contact-list {
+.contact-list, .glossary {
   display: block;
   padding: 0;
   margin: 0;
@@ -227,7 +227,7 @@ a:hover {
   overflow: hidden;
 }
 
-.contact-list li {
+.contact-list li, .glossary li {
   float: left;
   margin-right: 8vw;
   width: 20vw;
@@ -235,7 +235,15 @@ a:hover {
   word-break: break-word;
 }
 
-.contact-list em {
+.contact-list li {
+  min-height: 20vw;
+}
+
+.glossary li {
+  min-height: 8vw;
+}
+
+.contact-list em, .glossary em {
   font-weight: bold;
   font-style: normal;
 }
@@ -280,12 +288,20 @@ main > section:not(:last-child) {
     background-color: rgb(60, 65, 78);
   }
 
-  .contact-list li {
+  .contact-list li,
+  .glossary li {
     float: left;
-    margin-top: 4vw;
     margin-right: 0;
     width: 100%;
     height: auto;
+  }
+
+  .contact-list li {
+    margin-top: 4vw;
+  }
+
+  .glossary li {
+    margin-top: 2vw;
   }
 
   header,
