@@ -294,6 +294,19 @@ main > section:not(:last-child) {
   margin-bottom: 24px;
 }
 
+section img {
+  display: block;
+  clear: both;
+  width: 36vw;
+}
+
+section img + span.image-description {
+  display: block;
+  font-size: 10pt;
+  font-style: italic;
+  margin-bottom: 2vw;
+}
+
 /* ==========================================================================
    Break points (adapted five default breakpoints from Tailwind)
 
@@ -339,6 +352,14 @@ main > section:not(:last-child) {
     background-color: rgb(60, 65, 78);
   }
 
+  section img {
+    width: 100%;
+  }
+
+  section img + span.image-description {
+    margin-bottom: 4vw;
+  }
+
   .contact-list li,
   .glossary li {
     float: left;
@@ -366,12 +387,20 @@ main > section:not(:last-child) {
   nav {
     background-image: url("../img/pexels-katie-rainbow-768.jpg");
   }
+
+  section img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 769px) {
   header,
   nav {
     background-image: url("../img/pexels-katie-rainbow-1024.jpg");
+  }
+
+  section img {
+    width: 46vw;
   }
 }
 
