@@ -87,6 +87,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+:root {
+  --inclusive-language-display: inline;
+  --generic-masculine-prefix-display: none;
+}
+
+span.gender-prefix,
+span.inclusion-star {
+  display: var(--inclusive-language-display, "inline");
+}
+
+span.gender-prefix::before {
+  content: "*";
+  display: var(--inclusive-language-display, "inline");
+}
+
+span.generic-masculine-prefix {
+  display: var(--generic-masculine-prefix-display, "none");
+}
+
+#interactive-elements {
+  width: 100%;
+  font-size: 11pt;
+  text-align: right;
+}
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;

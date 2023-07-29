@@ -60,9 +60,51 @@ function loadContentFromHash() {
   );
 }
 
+function applyUserSettings() {
+  const disableInclusiveLanguage =
+    window.localStorage.getItem('disable-inclusive-language') === 'true';
+
+  document.getElementById('accessiblity-toggle').checked =
+    disableInclusiveLanguage;
+
+  document.title = disableInclusiveLanguage
+    ? 'Trans SHG Linz'
+    : 'Trans* SHG Linz';
+  document
+    .getElementById('trans-shg-logo')
+    .setAttribute(
+      'alt',
+      disableInclusiveLanguage ? 'Trans SHG Linz Logo' : 'Trans* SHG Linz Logo'
+    );
+  document.documentElement.style.setProperty(
+    '--inclusive-language-display',
+    disableInclusiveLanguage ? 'none' : 'inline'
+  );
+  document.documentElement.style.setProperty(
+    '--generic-masculine-prefix-display',
+    disableInclusiveLanguage ? 'inline' : 'none'
+  );
+}
+
 (() => {
+  applyUserSettings();
   loadContentFromHash();
 
+  document
+    .getElementById('accessiblity-toggle')
+    .addEventListener('change', (e) => {
+      const disableInclusiveLanguage = e.target.checked;
+      const currentlyStoredValue =
+        window.localStorage.getItem('disable-inclusive-language') === 'true';
+
+      if (currentlyStoredValue !== disableInclusiveLanguage) {
+        window.localStorage.setItem(
+          'disable-inclusive-language',
+          disableInclusiveLanguage
+        );
+        applyUserSettings();
+      }
+    });
   window.addEventListener('hashchange', () => {
     loadContentFromHash();
     scrollToPageStart();
