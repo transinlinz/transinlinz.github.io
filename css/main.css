@@ -218,7 +218,7 @@ a:hover {
 #page-content {
   margin: auto;
   margin-bottom: 24px;
-  width: 80%;
+  width: 45%;
   font-size: 14pt;
   padding: 24px;
   background-color: #fff;
@@ -297,7 +297,7 @@ main > section:not(:last-child) {
 section img {
   display: block;
   clear: both;
-  width: 36vw;
+  width: 100%;
 }
 
 section img + span.image-description {
@@ -400,7 +400,7 @@ section img + span.image-description {
   }
 
   section img {
-    width: 46vw;
+    width: 100%;
   }
 }
 
