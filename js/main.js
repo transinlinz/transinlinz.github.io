@@ -50,14 +50,26 @@ function scrollToPageStart() {
   document.documentElement.scrollTop = 0;
 }
 
+const locationHashRegex = /^#([a-z-]+)(?:\:([0-9A-Za-z-]+))?$/;
+
 function loadContentFromHash() {
   const { hash } = window.location;
+  const templateId = hash.replace(locationHashRegex, '$1');
 
-  loadContent(
-    /^#[a-z-]+$/.test(hash)
-      ? `${hash.substring(hash.indexOf('#') + 1)}-content`
-      : 'home-content'
-  );
+  if (templateId === '') {
+    loadContent('home-content');
+  } else {
+    const anchor = hash.replace(locationHashRegex, '$2');
+
+    loadContent(`${templateId}-content`);
+
+    if (anchor !== '') {
+      // needs to be invoked after the page has finished rendering
+      window.setTimeout(() => {
+        document.getElementById(anchor)?.scrollIntoView();
+      }, 0);
+    }
+  }
 }
 
 function applyUserSettings() {
