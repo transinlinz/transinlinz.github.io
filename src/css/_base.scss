@@ -1,0 +1,50 @@
+@use 'variables' as *;
+
+// Custom base styles (Tailwind Preflight handles box-sizing, resets, etc.)
+
+::selection {
+  background: $color-selection;
+  text-shadow: none;
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-mobile;
+  color: $color-text;
+  line-height: 1.4;
+}
+
+// Inclusive language toggle CSS vars
+:root {
+  --inclusive-language-display: inline;
+  --generic-masculine-prefix-display: none;
+}
+
+span.gender-prefix,
+span.inclusion-star {
+  display: var(--inclusive-language-display, 'inline');
+}
+
+span.gender-prefix::before {
+  content: '*';
+  display: var(--inclusive-language-display, 'inline');
+}
+
+span.generic-masculine-prefix {
+  display: var(--generic-masculine-prefix-display, 'none');
+}
+
+a {
+  color: $color-link;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+// Scale up font on larger screens
+@media (min-width: $bp-sm) {
+  body {
+    font-size: $font-size-base;
+  }
+}

@@ -1,0 +1,122 @@
+@use 'variables' as *;
+
+// ============================================================
+// Header — smaller/more subtle on all viewports
+// ============================================================
+
+header {
+  background-image: url('../img/pexels-katie-rainbow-640.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30vh;
+  min-height: 120px;
+  max-height: 300px;
+
+  @media (min-width: $bp-sm) {
+    background-image: url('../img/pexels-katie-rainbow-768.jpg');
+    height: 35vh;
+    max-height: 350px;
+  }
+
+  @media (min-width: $bp-md + 1) {
+    background-image: url('../img/pexels-katie-rainbow-1024.jpg');
+  }
+
+  @media (min-width: $bp-lg + 1) {
+    background-image: url('../img/pexels-katie-rainbow-1280.jpg');
+    max-height: 400px;
+  }
+
+  @media (min-width: $bp-xl + 1) {
+    background-image: url('../img/pexels-katie-rainbow-1536.jpg');
+  }
+
+  @media (min-width: $bp-2xl + 1) {
+    background-image: url('../img/pexels-katie-rainbow-5616.jpg');
+  }
+}
+
+// ============================================================
+// Main content area
+// ============================================================
+
+main {
+  background-color: $color-bg-dark;
+  padding-bottom: 24px;
+}
+
+#interactive-elements {
+  width: 100%;
+  font-size: 11pt;
+  text-align: right;
+}
+
+#page-content {
+  margin: 0 auto 24px;
+  width: 100%;
+  padding: 5rem 5vw 5vw;
+  font-size: $font-size-mobile;
+  background-color: $color-content-bg;
+  border-bottom: 2px solid $color-border;
+
+  a {
+    font-weight: bold;
+  }
+
+  ol > li {
+    padding-bottom: 4pt;
+
+    > em {
+      display: block;
+      font-weight: bold;
+      font-style: normal;
+    }
+  }
+
+  > footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+    font-size: 0.85em;
+    color: #666;
+  }
+}
+
+// ============================================================
+// Tablet and up
+// ============================================================
+
+@media (min-width: $bp-sm) {
+  #page-content {
+    width: 90%;
+    padding: 5rem 2rem 2rem;
+    font-size: $font-size-base;
+  }
+}
+
+@media (min-width: $bp-md) {
+  #page-content {
+    width: 80%;
+  }
+}
+
+@media (min-width: $bp-lg) {
+  #page-content {
+    width: 65%;
+    padding: 3rem 2rem 2rem;
+  }
+}
+
+@media (min-width: $bp-xl) {
+  #page-content {
+    width: 55%;
+  }
+}
+
+@media (min-width: $bp-2xl) {
+  #page-content {
+    width: 45%;
+  }
+}

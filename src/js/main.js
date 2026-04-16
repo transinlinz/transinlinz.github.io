@@ -10,7 +10,7 @@ function setUpEmailLinks() {
       document.querySelectorAll('a.ml'),
       (anchor) => {
         anchor.textContent = name;
-      }
+      },
     );
   }, 0);
 
@@ -29,7 +29,7 @@ function setUpEmailLinks() {
           e.preventDefault();
           window.open(str);
         });
-      }
+      },
     );
   }, 500);
 }
@@ -86,21 +86,47 @@ function applyUserSettings() {
     .getElementById('trans-shg-logo')
     .setAttribute(
       'alt',
-      disableInclusiveLanguage ? 'Trans SHG Linz Logo' : 'Trans* SHG Linz Logo'
+      disableInclusiveLanguage ? 'Trans SHG Linz Logo' : 'Trans* SHG Linz Logo',
     );
   document.documentElement.style.setProperty(
     '--inclusive-language-display',
-    disableInclusiveLanguage ? 'none' : 'inline'
+    disableInclusiveLanguage ? 'none' : 'inline',
   );
   document.documentElement.style.setProperty(
     '--generic-masculine-prefix-display',
-    disableInclusiveLanguage ? 'inline' : 'none'
+    disableInclusiveLanguage ? 'inline' : 'none',
   );
+}
+
+// Hamburger menu toggle
+function setupHamburgerMenu() {
+  const btn = document.getElementById('hamburger-btn');
+  const menu = document.getElementById('main-menu');
+
+  if (!btn || !menu) return;
+
+  btn.addEventListener('click', () => {
+    const isOpen = menu.classList.toggle('is-open');
+    btn.classList.toggle('is-active', isOpen);
+    btn.setAttribute('aria-expanded', String(isOpen));
+    btn.setAttribute('aria-label', isOpen ? 'Menü schließen' : 'Menü öffnen');
+  });
+
+  // Close menu when a nav link is clicked (mobile)
+  menu.addEventListener('click', (e) => {
+    if (e.target.tagName === 'A') {
+      menu.classList.remove('is-open');
+      btn.classList.remove('is-active');
+      btn.setAttribute('aria-expanded', 'false');
+      btn.setAttribute('aria-label', 'Menü öffnen');
+    }
+  });
 }
 
 (() => {
   applyUserSettings();
   loadContentFromHash();
+  setupHamburgerMenu();
 
   document
     .getElementById('accessiblity-toggle')
@@ -112,7 +138,7 @@ function applyUserSettings() {
       if (currentlyStoredValue !== disableInclusiveLanguage) {
         window.localStorage.setItem(
           'disable-inclusive-language',
-          disableInclusiveLanguage
+          disableInclusiveLanguage,
         );
         applyUserSettings();
       }

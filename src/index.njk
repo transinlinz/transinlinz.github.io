@@ -1,0 +1,74 @@
+---
+layout: layouts/base.njk
+title: 'Trans* SHG Linz'
+description: 'Webseite der Trans* SHG Linz'
+keywords: 'trans, transgender, inter, intersex, non-binary, nicht-binär, gender, geschlecht, identität, identity, selbsthilfegruppe, shg, ögk, oegk, linz, lgbt, lgbtq, lgbtqi, lgbtiq, lgbtqia, lsbt, lsbtq'
+author: 'Lena'
+---
+
+<header></header>
+
+<nav>
+  <div class="nav-top">
+    <img
+      src="/img/trans-shg-logo.png"
+      id="trans-shg-logo"
+      alt="Trans* SHG Linz Logo"
+    />
+    <button
+      class="hamburger"
+      id="hamburger-btn"
+      aria-label="Menü öffnen"
+      aria-expanded="false"
+      aria-controls="main-menu"
+    >
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+  </div>
+  <ul id="main-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#shg">Selbsthilfegruppe</a></li>
+    <li><a href="#code-of-conduct">Gruppenregeln</a></li>
+    <li><a href="#demands">Forderungen</a></li>
+    <li><a href="#meetup">TIN Treff Linz</a></li>
+    <li><a href="#counseling">Beratung</a></li>
+    <li><a href="#transition">Transition</a></li>
+    <li><a href="#wiki">Wissenswertes</a></li>
+    <li><a href="#queer-in-linz">Queer in Linz</a></li>
+    <li><a href="#legal">Impressum</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div id="page-content">
+    <section id="interactive-elements">
+      <form>
+        Gendersternchen deaktivieren:
+        <input type="checkbox" checked="false" id="accessiblity-toggle" />
+      </form>
+    </section>
+    <section id="content-slot">
+      <!-- PAGE CONTENT -->
+    </section>
+    <footer>
+      <p>&copy; Lena</p>
+      <p>
+        Trans<span class="inclusion-star">*</span> SHG Linz / Oberösterreich
+        Mitglied des Dachverbands Selbsthilfe OÖ
+      </p>
+    </footer>
+  </div>
+</main>
+
+{% include "templates/home.njk" %}
+{% include "templates/shg.njk" %}
+{% include "templates/code-of-conduct.njk" %}
+{% include "templates/demands.njk" %}
+{% include "templates/meetup.njk" %}
+{% include "templates/counseling.njk" %}
+{% include "templates/queer-in-linz.njk" %}
+{% include "templates/transition.njk" %}
+{% include "templates/wiki.njk" %}
+{% include "templates/legal.njk" %}

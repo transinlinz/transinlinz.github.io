@@ -1,0 +1,179 @@
+@use 'variables' as *;
+
+// ============================================================
+// Navigation — mobile-first
+// ============================================================
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+
+  background-image: url('../img/pexels-katie-rainbow-640.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+#trans-shg-logo {
+  height: 48px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+// ============================================================
+// Hamburger button (mobile only)
+// ============================================================
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 110;
+
+  .hamburger-line {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: $color-nav-text;
+    border-radius: 2px;
+    transition:
+      transform 0.3s ease,
+      opacity 0.3s ease;
+  }
+
+  // Animated X when open
+  &.is-active {
+    .hamburger-line:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger-line:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger-line:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  }
+}
+
+// ============================================================
+// Menu items — mobile: hidden dropdown
+// ============================================================
+
+#main-menu {
+  display: none;
+  list-style-type: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+
+  &.is-open {
+    display: block;
+  }
+
+  > li {
+    margin-bottom: 0.25rem;
+
+    > a {
+      display: block;
+      color: $color-nav-text;
+      text-decoration: none;
+      padding: 0.5rem 0.25rem;
+      border-bottom: 2px solid transparent;
+
+      &:hover,
+      &:active {
+        color: $color-nav-hover;
+        border-bottom-color: $color-nav-hover;
+      }
+    }
+  }
+}
+
+// ============================================================
+// Desktop nav (>= sm breakpoint)
+// ============================================================
+
+@media (min-width: $bp-sm) {
+  nav {
+    padding: 1rem 1.5rem 0.75rem;
+    background-image: url('../img/pexels-katie-rainbow-768.jpg');
+  }
+
+  #trans-shg-logo {
+    height: auto;
+    min-width: 140px;
+    max-width: 20vw;
+    margin-right: 2vw;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  #main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.5vw;
+    margin: 0;
+    align-items: center;
+
+    &.is-open {
+      display: flex;
+    }
+
+    > li {
+      margin-bottom: 0;
+
+      > a {
+        display: inline-block;
+        padding-bottom: 0.3vw;
+        margin-bottom: 0.5vw;
+      }
+    }
+  }
+
+  .nav-top {
+    display: contents !important;
+  }
+}
+
+@media (min-width: $bp-md + 1) {
+  nav {
+    background-image: url('../img/pexels-katie-rainbow-1024.jpg');
+  }
+}
+
+@media (min-width: $bp-lg + 1) {
+  nav {
+    background-image: url('../img/pexels-katie-rainbow-1280.jpg');
+  }
+}
+
+@media (min-width: $bp-xl + 1) {
+  nav {
+    background-image: url('../img/pexels-katie-rainbow-1536.jpg');
+  }
+}
+
+@media (min-width: $bp-2xl + 1) {
+  nav {
+    background-image: url('../img/pexels-katie-rainbow-5616.jpg');
+  }
+}

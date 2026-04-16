@@ -1,0 +1,108 @@
+@use 'variables' as *;
+
+// ============================================================
+// Content elements
+// ============================================================
+
+p.annotation {
+  font-style: italic;
+}
+
+p.emphasized {
+  font-weight: bold;
+}
+
+section img {
+  display: block;
+  clear: both;
+  width: 100%;
+  height: auto;
+}
+
+section img + span.image-description {
+  display: block;
+  font-size: 10pt;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+main > section:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+#last-update {
+  text-align: right;
+  font-style: italic;
+}
+
+// ============================================================
+// Contact list & Glossary — mobile-first: stacked
+// ============================================================
+
+.contact-list,
+.glossary {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type: none;
+
+  li {
+    margin-bottom: 1.5rem;
+    word-break: break-word;
+  }
+
+  em {
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+
+// Desktop: multi-column for contact list and glossary
+@media (min-width: $bp-lg) {
+  .contact-list,
+  .glossary {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .contact-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .glossary {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: $bp-xl) {
+  .glossary {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// ============================================================
+// Error page
+// ============================================================
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+  padding: 2rem;
+
+  h1 {
+    color: #555;
+    font-size: 2em;
+    font-weight: 400;
+  }
+
+  p {
+    margin: 0 auto;
+    max-width: 280px;
+    color: #888;
+  }
+}

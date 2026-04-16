@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "ginfuru.better-nunjucks",
+    "editorconfig.editorconfig",
+    "github.vscode-github-actions"
+  ]
+}

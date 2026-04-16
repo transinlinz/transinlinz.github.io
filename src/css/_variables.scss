@@ -1,0 +1,23 @@
+// Variables
+$color-bg-dark: rgb(60, 65, 78);
+$color-content-bg: #fff;
+$color-text: #222;
+$color-link: #55cefa;
+$color-nav-hover: #f6abb6;
+$color-nav-text: #fff;
+$color-border: #222;
+$color-selection: #b3d4fc;
+
+$font-family: 'Montserrat', sans-serif;
+$font-size-base: 14pt;
+$font-size-mobile: 12pt;
+
+// Breakpoints (mobile-first: min-width)
+$bp-sm: 640px;
+$bp-md: 768px;
+$bp-lg: 1024px;
+$bp-xl: 1280px;
+$bp-2xl: 1536px;
+
+// Nav height estimates for content offset
+$nav-height-mobile: 60px;

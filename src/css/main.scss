@@ -1,0 +1,9 @@
+// Main stylesheet — mobile-first approach
+// Tailwind base/reset is injected by the build pipeline (eleventy.config.mjs)
+// Custom SCSS partials follow:
+
+@use 'base';
+@use 'nav';
+@use 'layout';
+@use 'content';
+@use 'print';
