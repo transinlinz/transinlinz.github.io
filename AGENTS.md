@@ -2,13 +2,11 @@
 
 ## Formatting
 
-After every change to any file that matches the pattern `*.md`, `*.yml`, `*.json`, `*.js`, `*.mjs`, `*.sass`, `*.html`, or `*.njk` run:
+If changed file match pattern `*.md`, `*.yml`, `*.json`, `*.js`, `*.mjs`, `*.sass`, `*.html`, `*.njk` run:
 
 ```
 pnpm run prettier {file-name-or-glob}
 ```
-
-Example: `pnpm run prettier src/index.njk` or `pnpm run prettier src/css/`
 
 ## Build & Dev
 
