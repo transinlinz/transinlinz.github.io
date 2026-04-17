@@ -1,80 +1,123 @@
 @use 'variables' as *;
 
-// ============================================================
-// Content elements
-// ============================================================
+// ==========================================================================
+// Typography & content elements
+// ==========================================================================
 
 h1 {
-  color: #222;
-  font-size: 2rem;
-  font-weight: 800;
+  color: $color-text;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 3px solid $color-accent-blue;
+
+  @media (min-width: $bp-md) {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  color: $color-text;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid $color-accent-pink;
+
+  @media (min-width: $bp-md) {
+    font-size: 1.5rem;
+  }
 }
 
 p {
-  margin: 0.8rem auto;
-  color: #555;
+  margin: 0.75rem 0;
+  color: $color-text;
 }
 
 p.annotation {
   font-style: italic;
+  color: $color-text-muted;
+  font-size: 0.9em;
 }
 
 p.emphasized {
-  font-weight: bold;
+  font-weight: 600;
 }
+
+// ==========================================================================
+// Images
+// ==========================================================================
 
 section img {
   display: block;
   clear: both;
   width: 100%;
   height: auto;
+  border-radius: $radius-sm;
 }
 
 section img + span.image-description {
   display: block;
-  font-size: 10pt;
+  font-size: 0.8rem;
   font-style: italic;
+  color: $color-text-muted;
+  margin-top: 0.35rem;
   margin-bottom: 1rem;
 }
 
+// ==========================================================================
+// Section spacing
+// ==========================================================================
+
 main > section:not(:last-child) {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 #last-update {
   text-align: right;
   font-style: italic;
+  color: $color-text-muted;
+  font-size: 0.85rem;
 }
 
-// ============================================================
-// Contact list & Glossary — mobile-first: stacked
-// ============================================================
+// ==========================================================================
+// Contact list & Glossary — mobile-first: stacked cards
+// ==========================================================================
 
 .contact-list,
 .glossary {
   display: block;
   padding: 0;
-  margin: 0;
+  margin: 1rem 0;
   width: 100%;
   list-style-type: none;
 
   li {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
+    padding: 1rem;
     word-break: break-word;
+    background-color: $color-bg;
+    border-radius: $radius-sm;
+    border: 1px solid $color-border;
   }
 
   em {
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
+    font-size: 1.05em;
+    color: $color-text;
   }
 }
 
-// Desktop: multi-column for contact list and glossary
 @media (min-width: $bp-lg) {
   .contact-list,
   .glossary {
     display: grid;
-    gap: 2rem;
+    gap: 1.25rem;
   }
 
   .contact-list {
@@ -92,28 +135,29 @@ main > section:not(:last-child) {
   }
 }
 
-// ============================================================
+// ==========================================================================
 // Error page
-// ============================================================
+// ==========================================================================
 
 .error-page {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 60vh;
+  min-height: 50vh;
   text-align: center;
   padding: 2rem;
 
   h1 {
-    color: #555;
-    font-size: 2em;
+    color: $color-text-muted;
+    font-size: 2rem;
     font-weight: 400;
+    border-bottom: none;
   }
 
   p {
-    margin: 0 auto;
-    max-width: 280px;
-    color: #888;
+    margin: 0.5rem auto 0;
+    max-width: 320px;
+    color: $color-text-muted;
   }
 }

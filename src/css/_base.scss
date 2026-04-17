@@ -1,6 +1,12 @@
 @use 'variables' as *;
 
-// Custom base styles (Tailwind Preflight handles box-sizing, resets, etc.)
+// ==========================================================================
+// Base styles (Tailwind Preflight handles box-sizing, resets, etc.)
+// ==========================================================================
+
+html {
+  scroll-behavior: smooth;
+}
 
 ::selection {
   background: $color-selection;
@@ -9,12 +15,22 @@
 
 body {
   font-family: $font-family;
-  font-size: $font-size-mobile;
+  font-size: $font-size-base;
   color: $color-text;
-  line-height: 1.4;
+  line-height: $line-height;
+  background-color: $color-bg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-// Inclusive language toggle CSS vars
+// Scale up font on larger screens (18px)
+@media (min-width: $bp-md) {
+  body {
+    font-size: $font-size-lg;
+  }
+}
+
+// --- Inclusive language toggle CSS vars ---
 :root {
   --inclusive-language-display: inline;
   --generic-masculine-prefix-display: none;
@@ -34,17 +50,31 @@ span.generic-masculine-prefix {
   display: var(--generic-masculine-prefix-display, 'none');
 }
 
+// --- Links ---
 a {
   color: $color-link;
-}
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  transition: color 0.2s ease;
 
-a:hover {
-  text-decoration: none;
-}
-
-// Scale up font on larger screens
-@media (min-width: $bp-sm) {
-  body {
-    font-size: $font-size-base;
+  &:hover {
+    color: $color-link-hover;
   }
+
+  &:focus-visible {
+    outline: 2px solid $color-accent-blue;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+// --- Global focus-visible for keyboard accessibility ---
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid $color-accent-blue;
+  outline-offset: 2px;
+  border-radius: 2px;
 }

@@ -1,8 +1,8 @@
 @use 'variables' as *;
 
-// ============================================================
-// Navigation — mobile-first
-// ============================================================
+// ==========================================================================
+// Navigation — mobile-first, dark frosted-glass sticky bar
+// ==========================================================================
 
 nav {
   position: fixed;
@@ -10,30 +10,38 @@ nav {
   left: 0;
   width: 100%;
   z-index: 100;
-  padding: 0.75rem 1rem;
-  font-weight: bold;
+  padding: 0 1rem;
+  height: $nav-height-mobile;
+  display: flex;
+  align-items: center;
 
-  background-image: url('../img/pexels-katie-rainbow-640.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  // Dark frosted glass
+  background-color: $color-nav-bg-solid;
+  background-color: $color-nav-bg;
+
+  @supports (backdrop-filter: blur(12px)) {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
 
   .nav-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    height: $nav-height-mobile;
   }
 }
 
 #trans-shg-logo {
-  height: 48px;
+  height: 40px;
   width: auto;
   flex-shrink: 0;
 }
 
-// ============================================================
+// ==========================================================================
 // Hamburger button (mobile only)
-// ============================================================
+// ==========================================================================
 
 .hamburger {
   display: flex;
@@ -45,11 +53,12 @@ nav {
   cursor: pointer;
   padding: 8px;
   z-index: 110;
+  border-radius: $radius-sm;
 
   .hamburger-line {
     display: block;
-    width: 28px;
-    height: 3px;
+    width: 26px;
+    height: 2px;
     background-color: $color-nav-text;
     border-radius: 2px;
     transition:
@@ -57,10 +66,9 @@ nav {
       opacity 0.3s ease;
   }
 
-  // Animated X when open
   &.is-active {
     .hamburger-line:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
+      transform: translateY(7px) rotate(45deg);
     }
 
     .hamburger-line:nth-child(2) {
@@ -68,63 +76,99 @@ nav {
     }
 
     .hamburger-line:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
+      transform: translateY(-7px) rotate(-45deg);
     }
   }
 }
 
-// ============================================================
-// Menu items — mobile: hidden dropdown
-// ============================================================
+// ==========================================================================
+// Mobile menu — full-viewport overlay panel
+// ==========================================================================
 
 #main-menu {
-  display: none;
+  // Fixed overlay below the nav bar
+  position: fixed;
+  top: $nav-height-mobile;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - #{$nav-height-mobile});
+  height: calc(100dvh - #{$nav-height-mobile});
+
   list-style-type: none;
-  margin: 0.75rem 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 2rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  background-color: $color-nav-bg-solid;
+
+  // Hidden by default
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  pointer-events: none;
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    visibility 0.25s;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 
   &.is-open {
-    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
   }
 
-  > li {
-    margin-bottom: 0.25rem;
+  > li > a {
+    display: block;
+    color: $color-nav-text;
+    text-decoration: none;
+    padding: 0.85rem 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    border-radius: $radius-sm;
+    transition:
+      color 0.2s ease,
+      background-color 0.2s ease;
 
-    > a {
-      display: block;
-      color: $color-nav-text;
-      text-decoration: none;
-      padding: 0.5rem 0.25rem;
-      border-bottom: 2px solid transparent;
+    &:hover,
+    &:active {
+      color: $color-nav-hover;
+      background-color: rgba(255, 255, 255, 0.08);
+    }
 
-      &:hover,
-      &:active {
-        color: $color-nav-hover;
-        border-bottom-color: $color-nav-hover;
-      }
-
-      &[aria-current='page'] {
-        border-bottom-color: $color-nav-text;
-      }
+    &[aria-current='page'] {
+      color: $color-nav-active;
+      background-color: rgba(255, 255, 255, 0.06);
     }
   }
 }
 
-// ============================================================
-// Desktop nav (>= sm breakpoint)
-// ============================================================
+// ==========================================================================
+// Desktop nav (>= md breakpoint)
+// ==========================================================================
 
-@media (min-width: $bp-sm) {
+@media (min-width: $bp-md) {
   nav {
-    padding: 1rem 1.5rem 0.75rem;
-    background-image: url('../img/pexels-katie-rainbow-768.jpg');
+    height: $nav-height-desktop;
+    padding: 0 2rem;
+    flex-wrap: nowrap;
+    gap: 2rem;
+  }
+
+  nav .nav-top {
+    width: auto;
+    height: $nav-height-desktop;
+    flex-shrink: 0;
   }
 
   #trans-shg-logo {
-    height: auto;
-    min-width: 140px;
-    max-width: 20vw;
-    margin-right: 2vw;
+    height: 44px;
   }
 
   .hamburger {
@@ -132,52 +176,56 @@ nav {
   }
 
   #main-menu {
-    display: flex;
+    // Reset overlay for desktop — inline horizontal nav
+    position: static;
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    pointer-events: auto;
+    overflow: visible;
+    padding: 0;
+
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 0.25rem 1.5vw;
-    margin: 0;
     align-items: center;
+    gap: 0.15rem 1.25rem;
 
     &.is-open {
-      display: flex;
+      transform: none;
     }
 
-    > li {
-      margin-bottom: 0;
+    > li > a {
+      display: inline-block;
+      padding: 0.35rem 0;
+      font-size: 0.875rem;
+      border-radius: 0;
+      border-bottom: 2px solid transparent;
 
-      > a {
-        display: inline-block;
-        padding-bottom: 0.3vw;
-        margin-bottom: 0.5vw;
+      &:hover,
+      &:active {
+        color: $color-nav-hover;
+        background-color: transparent;
+        border-bottom-color: $color-nav-hover;
+      }
+
+      &[aria-current='page'] {
+        color: $color-nav-active;
+        background-color: transparent;
+        border-bottom-color: $color-nav-active;
       }
     }
   }
-
-  .nav-top {
-    display: contents !important;
-  }
 }
 
-@media (min-width: $bp-md + 1) {
+@media (min-width: $bp-lg) {
   nav {
-    background-image: url('../img/pexels-katie-rainbow-1024.jpg');
+    padding: 0 clamp(2rem, 4vw, 4rem);
   }
-}
 
-@media (min-width: $bp-lg + 1) {
-  nav {
-    background-image: url('../img/pexels-katie-rainbow-1280.jpg');
-  }
-}
-
-@media (min-width: $bp-xl + 1) {
-  nav {
-    background-image: url('../img/pexels-katie-rainbow-1536.jpg');
-  }
-}
-
-@media (min-width: $bp-2xl + 1) {
-  nav {
-    background-image: url('../img/pexels-katie-rainbow-5616.jpg');
+  #main-menu {
+    gap: 0.15rem 1.75rem;
   }
 }

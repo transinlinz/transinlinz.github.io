@@ -1,23 +1,56 @@
-// Variables
-$color-bg-dark: rgb(60, 65, 78);
-$color-content-bg: #fff;
-$color-text: #222;
-$color-link: #55cefa;
-$color-nav-hover: #f6abb6;
+// ==========================================================================
+// Design tokens — Trans* SHG Linz
+// Palette: #55cefa (blue), #f6abb6 (pink), #fff, dark grays
+// ==========================================================================
+
+// --- Accent colors (decorative only — never as body/link text on white) ---
+$color-accent-blue: #55cefa;
+$color-accent-pink: #f6abb6;
+
+// --- Text colors ---
+$color-text: #2b2b2b; // body text on white — 14.5:1 contrast
+$color-text-muted: #5f6368; // secondary text — 7:1 on white
+$color-link: #0077b6; // link text on white — ~4.7:1 (WCAG AA)
+$color-link-hover: #005f8a; // darker on hover — ~6.4:1
+
+// --- Surface colors ---
+$color-bg: #f8f9fa; // page background (light warm gray)
+$color-content-bg: #fff; // content card
+$color-nav-bg: rgba(
+  35,
+  35,
+  40,
+  0.65
+); // nav bar (translucent for frosted glass)
+$color-nav-bg-solid: #232328; // fallback for no backdrop-filter + mobile overlay
 $color-nav-text: #fff;
-$color-border: #222;
+$color-nav-hover: $color-accent-pink;
+$color-nav-active: $color-accent-blue;
+$color-footer-bg: #2b2b2b;
+$color-footer-text: rgba(255, 255, 255, 0.85);
+
+// --- Utility colors ---
+$color-border: #e0e0e0; // light, subtle borders
 $color-selection: #b3d4fc;
+$color-shadow: rgba(0, 0, 0, 0.08);
 
+// --- Typography ---
 $font-family: 'Montserrat', sans-serif;
-$font-size-base: 14pt;
-$font-size-mobile: 12pt;
+$font-size-base: 1rem; // 16px — scales to 1.125rem on desktop
+$font-size-lg: 1.125rem; // 18px on larger screens
+$line-height: 1.65;
 
-// Breakpoints (mobile-first: min-width)
+// --- Breakpoints (mobile-first: min-width) ---
 $bp-sm: 640px;
 $bp-md: 768px;
 $bp-lg: 1024px;
 $bp-xl: 1280px;
 $bp-2xl: 1536px;
 
-// Nav height estimates for content offset
-$nav-height-mobile: 60px;
+// --- Layout ---
+$content-max-width: 720px;
+$content-max-width-wide: 900px;
+$nav-height-mobile: 64px;
+$nav-height-desktop: 72px;
+$radius: 12px;
+$radius-sm: 8px;
