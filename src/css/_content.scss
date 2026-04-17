@@ -4,6 +4,17 @@
 // Content elements
 // ============================================================
 
+h1 {
+  color: #222;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+p {
+  margin: 0.8rem auto;
+  color: #555;
+}
+
 p.annotation {
   font-style: italic;
 }

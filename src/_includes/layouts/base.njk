@@ -29,9 +29,11 @@
     />
   </head>
   <body>
+    <a href="#content-slot" class="skip-link">Zum Inhalt springen</a>
+
     <header></header>
 
-    <nav>
+    <nav aria-label="Hauptnavigation">
       <div class="nav-top">
         <a href="/">
           <img
@@ -74,20 +76,26 @@
       <div id="page-content">
         <section id="interactive-elements">
           <form>
-            Gendersternchen deaktivieren:
-            <input type="checkbox" checked="false" id="accessiblity-toggle" />
+            <fieldset>
+              <legend>Einstellungen</legend>
+              <label for="accessiblity-toggle">
+                <input type="checkbox" id="accessiblity-toggle" />
+                Gendersternchen deaktivieren
+              </label>
+            </fieldset>
           </form>
         </section>
         <section id="content-slot">{{ content | safe }}</section>
-        <footer>
-          <p>&copy; Lena</p>
-          <p>
-            Trans<span class="inclusion-star">*</span> SHG Linz / Oberösterreich
-            Mitglied des Dachverbands Selbsthilfe OÖ
-          </p>
-        </footer>
       </div>
     </main>
+
+    <footer>
+      <p>&copy; Lena</p>
+      <p>
+        Trans<span class="inclusion-star">*</span> SHG Linz / Oberösterreich
+        Mitglied des Dachverbands Selbsthilfe OÖ
+      </p>
+    </footer>
 
     <script src="/js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="/js/plugins.js"></script>

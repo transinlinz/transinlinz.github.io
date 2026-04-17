@@ -1,6 +1,27 @@
 @use 'variables' as *;
 
 // ============================================================
+// Skip to content link (keyboard navigation)
+// ============================================================
+
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0 0 4px 0;
+
+  &:focus {
+    top: 0;
+    left: 0;
+  }
+}
+
+// ============================================================
 // Header — smaller/more subtle on all viewports
 // ============================================================
 
