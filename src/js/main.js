@@ -34,44 +34,6 @@ function setUpEmailLinks() {
   }, 500);
 }
 
-function loadContent(contentId) {
-  const contentNode = document.getElementById(contentId);
-
-  if (contentNode.nodeName === 'TEMPLATE') {
-    document
-      .getElementById('content-slot')
-      .replaceChildren(contentNode.content.cloneNode(true));
-    setUpEmailLinks();
-  }
-}
-
-function scrollToPageStart() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-const locationHashRegex = /^#([a-z-]+)(?:\:([0-9A-Za-z-]+))?$/;
-
-function loadContentFromHash() {
-  const { hash } = window.location;
-  const templateId = hash.replace(locationHashRegex, '$1');
-
-  if (templateId === '') {
-    loadContent('home-content');
-  } else {
-    const anchor = hash.replace(locationHashRegex, '$2');
-
-    loadContent(`${templateId}-content`);
-
-    if (anchor !== '') {
-      // needs to be invoked after the page has finished rendering
-      window.setTimeout(() => {
-        document.getElementById(anchor)?.scrollIntoView();
-      }, 0);
-    }
-  }
-}
-
 function applyUserSettings() {
   const disableInclusiveLanguage =
     window.localStorage.getItem('disable-inclusive-language') === 'true';
@@ -123,9 +85,40 @@ function setupHamburgerMenu() {
   });
 }
 
+// Redirect legacy hash-based URLs to new page paths
+function redirectLegacyHash() {
+  const { hash } = window.location;
+  if (!hash) return;
+
+  const match = hash.match(/^#([a-z-]+)(?::([0-9A-Za-z-]+))?$/);
+  if (!match) return;
+
+  const page = match[1];
+  const anchor = match[2];
+
+  const routes = {
+    home: '/',
+    shg: '/shg/',
+    'code-of-conduct': '/code-of-conduct/',
+    demands: '/demands/',
+    meetup: '/meetup/',
+    counseling: '/counseling/',
+    transition: '/transition/',
+    wiki: '/wiki/',
+    'queer-in-linz': '/queer-in-linz/',
+    legal: '/legal/',
+  };
+
+  const target = routes[page];
+  if (target) {
+    window.location.replace(target + (anchor ? '#' + anchor : ''));
+  }
+}
+
 (() => {
+  redirectLegacyHash();
   applyUserSettings();
-  loadContentFromHash();
+  setUpEmailLinks();
   setupHamburgerMenu();
 
   document
@@ -143,8 +136,4 @@ function setupHamburgerMenu() {
         applyUserSettings();
       }
     });
-  window.addEventListener('hashchange', () => {
-    loadContentFromHash();
-    scrollToPageStart();
-  });
 })();

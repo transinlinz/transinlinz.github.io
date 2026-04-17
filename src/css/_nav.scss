@@ -102,6 +102,10 @@ nav {
         color: $color-nav-hover;
         border-bottom-color: $color-nav-hover;
       }
+
+      &[aria-current='page'] {
+        border-bottom-color: $color-nav-text;
+      }
     }
   }
 }

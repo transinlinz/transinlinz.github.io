@@ -3,8 +3,11 @@ import postcss from 'postcss';
 import tailwindcssPostcss from '@tailwindcss/postcss';
 import autoprefixer from 'autoprefixer';
 import path from 'node:path';
+import eleventyNavigationPlugin from '@11ty/eleventy-navigation';
 
 export default async function (eleventyConfig) {
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+
   // SCSS → PostCSS/Tailwind pipeline
   eleventyConfig.addTemplateFormats('scss');
   eleventyConfig.addExtension('scss', {

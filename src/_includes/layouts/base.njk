@@ -29,7 +29,65 @@
     />
   </head>
   <body>
-    {{ content | safe }}
+    <header></header>
+
+    <nav>
+      <div class="nav-top">
+        <a href="/">
+          <img
+            src="/img/trans-shg-logo.png"
+            id="trans-shg-logo"
+            alt="Trans* SHG Linz Logo"
+          />
+        </a>
+        <button
+          class="hamburger"
+          id="hamburger-btn"
+          aria-label="Menü öffnen"
+          aria-expanded="false"
+          aria-controls="main-menu"
+        >
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+      {% set navPages = collections.all | eleventyNavigation %}
+      <ul id="main-menu">
+        {%- for entry in navPages %}
+          {% if entry.url == page.url %}
+            <li class="is-active">
+              <a href="{{ entry.url }}" aria-current="page"
+                >{{ entry.title }}</a
+              >
+            </li>
+          {% else %}
+            <li>
+              <a href="{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+          {% endif %}
+        {%- endfor %}
+      </ul>
+    </nav>
+
+    <main>
+      <div id="page-content">
+        <section id="interactive-elements">
+          <form>
+            Gendersternchen deaktivieren:
+            <input type="checkbox" checked="false" id="accessiblity-toggle" />
+          </form>
+        </section>
+        <section id="content-slot">{{ content | safe }}</section>
+        <footer>
+          <p>&copy; Lena</p>
+          <p>
+            Trans<span class="inclusion-star">*</span> SHG Linz / Oberösterreich
+            Mitglied des Dachverbands Selbsthilfe OÖ
+          </p>
+        </footer>
+      </div>
+    </main>
 
     <script src="/js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="/js/plugins.js"></script>
