@@ -38,53 +38,50 @@ The site builds to `_site/` and is ready to deploy.
 
 ### Tech Stack
 
-- **Eleventy 3.x** — Static site generator
+- **Eleventy 3.x** + **eleventy-navigation** — Static site generator with multi-page navigation
 - **Nunjucks** — Templating language
-- **SCSS & Tailwind CSS v4** — Styling
+- **SCSS & Tailwind CSS v4** — Custom styles with Tailwind Preflight/normalization only (no utility classes)
 - **PostCSS + Autoprefixer** — CSS processing
 
 ### Project Structure
 
 ```
 src/
-  index.njk                    # Main page template
+  index.njk                    # Home page
+  shg.njk
+  code-of-conduct.njk
+  demands.njk
+  meetup.njk
+  counseling.njk
+  queer-in-linz.njk
+  transition.njk
+  wiki.njk
+  legal.njk
   _includes/
-    layouts/base.njk           # Base HTML layout
-    templates/                 # Page sections (hash-based routing)
-      home.njk
-      shg.njk
-      code-of-conduct.njk
-      demands.njk
-      meetup.njk
-      counseling.njk
-      queer-in-linz.njk
-      transition.njk
-      wiki.njk
-      legal.njk
+    layouts/base.njk           # Base HTML layout (nav, header, footer)
   css/
-    main.scss                  # Main stylesheet
-    _variables.scss
+    main.scss                  # Imports all partials
+    _variables.scss            # Design tokens
     _base.scss
     _nav.scss
     _layout.scss
     _content.scss
+    _print.scss
   js/
-    main.js                    # Hash-based routing & menu
+    main.js                    # Email obfuscation, hamburger menu, legacy redirect
     plugins.js
 ```
 
 ### Architecture Notes
 
-The site uses **hash-based routing** — page sections are `<template>` elements that are swapped in/out via `src/js/main.js` on `window.location.hash` change.
+The site is a **multi-page static site** using the `@11ty/eleventy-navigation` plugin. Each section is a standalone `.njk` file in `src/` with `eleventyNavigation` frontmatter (`key`, `title`, `order`). The nav is rendered automatically from the collection in `base.njk`.
+
+Legacy hash-based URLs (e.g. `/#shg`) are redirected client-side to the correct page via `redirectLegacyHash()` in `main.js`.
 
 ### Guidelines
 
-- Run `pnpm run prettier` after editing `.md`, `.yml`, `.json`, `.js`, `.mjs`, `.sass`, `.html`, or `.njk` files
+- Run `pnpm run prettier {file}` after editing `.md`, `.yml`, `.json`, `.js`, `.mjs`, `.sass`, `.html`, or `.njk` files
 - Styles belong in SCSS partials (`src/css/`), not as utility classes in HTML
-- New page sections go in `src/_includes/templates/`
+- New page sections: add a `.njk` file in `src/` with `eleventyNavigation` frontmatter
 
 See [AGENTS.md](AGENTS.md) for more detailed development guidelines.
-
-## Contact
-
-For questions or to get involved, visit [transinlinz.info](https://transinlinz.info).

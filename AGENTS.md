@@ -27,40 +27,48 @@ pnpm format    # format all project files at once
 
 ## Architecture
 
-SPA with hash-based routing. Page sections are `<template>` elements; `src/js/main.js` swaps content on `window.location.hash` change.
+Multi-page static site using `@11ty/eleventy-navigation`. Each page standalone `.njk` in `src/` with `eleventyNavigation` frontmatter (`key`, `title`, `order`). Nav rendered automatically in `base.njk` from collection.
+
+Legacy hash-based URLs redirected client-side via `redirectLegacyHash()` in `src/js/main.js`.
 
 ```
 src/
-  index.njk                   # page shell + {% include %} directives
+  index.njk                   # home page
+  shg.njk
+  code-of-conduct.njk
+  demands.njk
+  meetup.njk
+  counseling.njk
+  queer-in-linz.njk
+  transition.njk
+  wiki.njk
+  legal.njk
   _includes/
-    layouts/base.njk          # base HTML layout
-    templates/                # one file per page section
-      home.njk
-      shg.njk
-      code-of-conduct.njk
-      demands.njk
-      meetup.njk
-      counseling.njk
-      queer-in-linz.njk
-      transition.njk
-      wiki.njk
-      legal.njk
+    layouts/base.njk          # base HTML layout (skip-link, nav, header, footer)
   css/
     main.scss                 # imports partials only
-    _variables.scss
+    _variables.scss           # design tokens
     _base.scss
     _nav.scss
     _layout.scss
     _content.scss
     _print.scss
   js/
-    main.js                   # hash routing + hamburger menu
+    main.js                   # email obfuscation, hamburger menu, legacy hash redirect
     plugins.js
 ```
 
 ## Conventions
 
-- **Do not alter page content.** Text inside `<template>` blocks in `src/_includes/templates/` must not be changed.
-- **Styles go in SCSS partials**, not as Tailwind utility classes in HTML.
-- **SCSS partials** are prefixed with `_` and imported via `src/css/main.scss`.
-- **New page sections** → add a file in `src/_includes/templates/` and include it in `src/index.njk` via `{% include %}`.
+- **Do not alter page content.** Text in `.njk` files in `src/` must not change.
+- **Styles go in SCSS partials**, not Tailwind utility classes in HTML.
+- **SCSS partials** prefixed with `_`, imported via `src/css/main.scss`.
+- **New page sections** → add `.njk` directly in `src/` with `eleventyNavigation` frontmatter.
+
+## Agent Rules
+
+- **Never write or execute custom Python scripts.** Use available CLI tools (pnpm scripts, git, sed, etc.) — sufficient for all tasks; easier to review.
+- **Never rely on training data or cached knowledge for dependency/action versions.** Always fetch current release page from project website or GitHub repo to confirm latest version before specifying in any config file.
+- **Write terse (caveman-speak).** New content in this file: compressed prose, drop articles/filler, fragments OK, short synonyms. Keep tokens low.
+- **Check available tools at startup** (before reading/editing files). Probe for these commands and use freely if found:
+  `jq` `fzf` `rg` `fd` `bat`/`batcat` `eza` `sd` `tokei` `hyperfine` `dust` `duf` `procs` `xh` `watchexec` `delta` `difftastic` `ag`
