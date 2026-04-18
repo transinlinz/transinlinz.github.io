@@ -42,11 +42,10 @@ _Stand: 11. August 2024_
    konterkariert. Es ist auch unangemessen anderen Teilnehmenden Lösungsansätze, die für einen
    selbst gut funktionieren oder funktioniert haben, aufzwingen zu wollen - seien sie religiöser
    oder säkularer Natur. Das Gleiche gilt auch für alle
-   Hobbypsycholog<span class="generic-masculine-prefix"> en</span
-   <span class="gender-prefix">innen</span>: andere Teilnehmende einfach aufgrund> bestimmter
-   Verhaltensmuster oder Symptomatiken unaufgefordert zu diagnostizieren (sei es jetzt> mit ADHS,
-   Autismus oder anderem) ist nicht nur sehr unhöflich, sondern auch durchaus anmaßend> auch wenn es
-   nur gut gemeint ist.
+   Hobbypsycholog<span class="generic-masculine-prefix">en</span><span class="gender-prefix">innen</span>:
+   andere Teilnehmende einfach aufgrund bestimmter Verhaltensmuster oder Symptomatiken
+   unaufgefordert zu diagnostizieren (sei es jetzt mit ADHS, Autismus oder anderem) ist nicht nur
+   sehr unhöflich, sondern auch durchaus anmaßend, auch wenn es nur gut gemeint ist.
 
 1. <em>Diese Gruppe ist nicht dafür da um nach einer Beziehung oder sexuellen Erfahrungen zu
    suchen.</em> Jegliche sexuellen bzw. romantischen Annäherungsversuche sind daher zu unterlassen!

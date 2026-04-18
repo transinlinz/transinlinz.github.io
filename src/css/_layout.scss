@@ -70,6 +70,7 @@ header {
 // ==========================================================================
 
 main {
+  flex: 1 0 auto;
   background-color: $color-bg;
   padding: 1.5rem 1rem 2rem;
 
@@ -124,6 +125,11 @@ main {
 
   a {
     font-weight: 600;
+  }
+
+  ol {
+    list-style: decimal;
+    padding-left: 1.5rem;
   }
 
   ol > li {

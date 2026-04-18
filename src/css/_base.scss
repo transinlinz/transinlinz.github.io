@@ -21,6 +21,9 @@ body {
   background-color: $color-bg;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
 }
 
 // Scale up font on larger screens (18px)
