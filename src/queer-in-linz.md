@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: 'Queer in Linz — Trans* SHG Linz'
+title: 'Queer in Linz — Trans SHG Linz'
 eleventyNavigation:
   key: Queer in Linz
   title: Queer in Linz
@@ -9,9 +9,8 @@ eleventyNavigation:
 
 # Queere Szene in Linz
 
-Die queere Szene in Linz ist überschaubar aber es gibt sie. Es gibt eine
-handvoll queere Lokale in Linz und einige Vereine die einen Fokus auf die
-LGBTQI+ Community haben.
+Die queere Szene in Linz ist überschaubar aber es gibt sie. Es gibt eine handvoll queere Lokale in
+Linz und einige Vereine die einen Fokus auf die LGBTQI+ Community haben.
 
 ## Meetups und Freizeitgruppen
 
@@ -40,21 +39,11 @@ LGBTQI+ Community haben.
     <p>
       Jeden 1. Freitag im Monat ab 18:00 entweder im
       <em>last by Schachermayer</em>,
-      <a
-        href="https://maps.app.goo.gl/bu8AUdEFt7ZkpMrx8"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Lastenstraße 42, 4020 Linz</a
-      >. (Für mehr Informationen siehe <a href="/meetup/">hier</a>.)
+      <a href="https://maps.app.goo.gl/bu8AUdEFt7ZkpMrx8" target="_blank" rel="noopener noreferrer">Lastenstraße 42, 4020 Linz</a>. (Für mehr Informationen siehe <a href="/meetup/">hier</a>.)
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/tin.treff.linz"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@tin.treff.linz</a
-      >
+      <a href="https://www.instagram.com/tin.treff.linz" target="_blank" rel="noopener noreferrer">@tin.treff.linz</a>
     </p>
   </li>
   <li>
@@ -73,12 +62,7 @@ LGBTQI+ Community haben.
     <p>
       Bis auf weiteres jeden 4. Samstag im Monat ab 17:00 in der
       <em>KPÖ OÖ</em>,
-      <a
-        href="https://maps.app.goo.gl/AdJTuvCV1RV1YCrt5"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Melicharstraße 8, 4020 Linz</a
-      >.
+      <a href="https://maps.app.goo.gl/AdJTuvCV1RV1YCrt5" target="_blank" rel="noopener noreferrer">Melicharstraße 8, 4020 Linz</a>.
     </p>
     <p>
       Für Treffen gelten die Regeln 1-4 der
@@ -87,22 +71,12 @@ LGBTQI+ Community haben.
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/tin.treff.linz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@tin.treff.linz</a
-      >
+      <a href="https://www.instagram.com/tin.treff.linz/" target="_blank" rel="noopener noreferrer">@tin.treff.linz</a>
     </p>
   </li>
   <li>
-    <em
-      >Trans<span class="inclusion-star">*</span>+Inter<span
-        class="inclusion-star"
-        >*</span
-      >
-      Stammtisch Linz</em
-    >
+    <em>Trans<span class="inclusion-star">*</span>+Inter<span class="inclusion-star">*</span>
+      Stammtisch Linz</em>
     <p>
       Dieser Stammtisch bietet eine Möglichkeit sich mit anderen Leuten zu
       treffen und auszutauschen die Teil des Trans- und Interspektrums sind.
@@ -119,21 +93,11 @@ LGBTQI+ Community haben.
     <p>
       Jeden 3. Donnerstag im Monat ab 19:00 im
       <em>forty nine</em>,
-      <a
-        href="https://maps.app.goo.gl/Gs8atz5onhsSfEeX9"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Schillerstraße 49, 4020 Linz</a
-      >.
+      <a href="https://maps.app.goo.gl/Gs8atz5onhsSfEeX9" target="_blank" rel="noopener noreferrer">Schillerstraße 49, 4020 Linz</a>.
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/trans.inter.nonbinary.linz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@trans.inter.nonbinary.linz</a
-      >
+      <a href="https://www.instagram.com/trans.inter.nonbinary.linz/" target="_blank" rel="noopener noreferrer">@trans.inter.nonbinary.linz</a>
     </p>
   </li>
   <li>
@@ -153,12 +117,7 @@ LGBTQI+ Community haben.
     <p>
       Eine Anmeldung ist nicht erforderlich. Bis auf weiteres jeden Dienstag
       ab 19 Uhr. Startpunkt ist der Parkplatz vom Bahnhof Ebelsberg bei der
-      <a
-        href="https://maps.app.goo.gl/3wotHrcKsNCCZb8E6"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Straßenbahnhaltestelle Ebelsberg Bahnhof</a
-      >.
+      <a href="https://maps.app.goo.gl/3wotHrcKsNCCZb8E6" target="_blank" rel="noopener noreferrer">Straßenbahnhaltestelle Ebelsberg Bahnhof</a>.
     </p>
     <p>
       Ankünfte mit der S-Bahn die um 18:59 Halt macht bei Ebelsberg Bahnhof
@@ -168,14 +127,9 @@ LGBTQI+ Community haben.
     </p>
     <p>
       Invite-Link zur
-      <a href="https://chat.whatsapp.com/JisnghydmqYJUKqC0oflkE"
-        >WhatsApp Gruppe</a
-      >
+      <a href="https://chat.whatsapp.com/JisnghydmqYJUKqC0oflkE">WhatsApp Gruppe</a>
       oder
-      <a
-        href="https://signal.group/#CjQKIJa1bYKGwBv4bgW5Ep8Rfssbj_JWkc65Kvq0aKeDtjd6EhATMfGpL9IntPtc08u0q0XZ"
-        >Signal Gruppe</a
-      >
+      <a href="https://signal.group/#CjQKIJa1bYKGwBv4bgW5Ep8Rfssbj_JWkc65Kvq0aKeDtjd6EhATMfGpL9IntPtc08u0q0XZ">Signal Gruppe</a>
     </p>
   </li>
   <li>
@@ -183,10 +137,7 @@ LGBTQI+ Community haben.
     <p>
       Coole Drinks, gute Musik und die beste Gesellschaft. Das Angebot der
       HOSI Linz explizit für Frauen jeglicher sexueller Orientierung sowie
-      trans<span class="inclusion-star">*</span>, inter<span
-        class="inclusion-star"
-        >*</span
-      >
+      trans<span class="inclusion-star">*</span>, inter<span class="inclusion-star">*</span>
       und nicht-binäre Menschen. Die Ladies*Night soll ein Safe Space für
       queere Frauen sein zum gemütlichen Zusammensitzen und Austauschen. Was
       die genaue Ausgestaltung des monatlichen After-Work-Get-Togethers
@@ -199,28 +150,13 @@ LGBTQI+ Community haben.
     <p>
       Immer am 2. Donnerstag im Monat ab 19:00 im
       <em>forty nine</em>,
-      <a
-        href="https://maps.app.goo.gl/Gs8atz5onhsSfEeX9"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Schillerstraße 49, 4020 Linz</a
-      >.
+      <a href="https://maps.app.goo.gl/Gs8atz5onhsSfEeX9" target="_blank" rel="noopener noreferrer">Schillerstraße 49, 4020 Linz</a>.
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/hosilinz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@hosilinz</a
-      >
+      <a href="https://www.instagram.com/hosilinz/" target="_blank" rel="noopener noreferrer">@hosilinz</a>
       /
-      <a
-        href="https://www.instagram.com/fortynine_linz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@fortynine_linz</a
-      >
+      <a href="https://www.instagram.com/fortynine_linz/" target="_blank" rel="noopener noreferrer">@fortynine_linz</a>
     </p>
   </li>
   <li>
@@ -228,34 +164,18 @@ LGBTQI+ Community haben.
     <p>
       In gemütlicher Wohnzimmeratmosphäre wird ein abwechslungsreicher Start
       ins Wochenende geschaffen. Die perfekte Gelegenheit, neue Leute
-      kennenzulernen, sich mit Freund<span class="inclusion-star">*</span
-      >innen zu unterhalten und Spiele zu spielen.
+      kennenzulernen, sich mit Freund<span class="inclusion-star">*</span>innen zu unterhalten und Spiele zu spielen.
     </p>
     <p>
       Immer am 4. Freitag im Monat ab 18:00 im
       <em>forty nine</em>,
-      <a
-        href="https://maps.app.goo.gl/Gs8atz5onhsSfEeX9"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Schillerstraße 49, 4020 Linz</a
-      >.
+      <a href="https://maps.app.goo.gl/Gs8atz5onhsSfEeX9" target="_blank" rel="noopener noreferrer">Schillerstraße 49, 4020 Linz</a>.
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/hosilinz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@hosilinz</a
-      >
+      <a href="https://www.instagram.com/hosilinz/" target="_blank" rel="noopener noreferrer">@hosilinz</a>
       /
-      <a
-        href="https://www.instagram.com/fortynine_linz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@fortynine_linz</a
-      >
+      <a href="https://www.instagram.com/fortynine_linz/" target="_blank" rel="noopener noreferrer">@fortynine_linz</a>
     </p>
   </li>
   <li>
@@ -269,21 +189,11 @@ LGBTQI+ Community haben.
       sicher sind. Die Treffen werden flexibel gestaltet.
     </p>
     <p>
-      <a
-        href="https://www.hosilinz.at/lesbresso/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >https://www.hosilinz.at/lesbresso</a
-      >
+      <a href="https://www.hosilinz.at/lesbresso/" target="_blank" rel="noopener noreferrer">https://www.hosilinz.at/lesbresso</a>
     </p>
     <p>
       Facebook:
-      <a
-        href="https://www.facebook.com/QueereFrauenLinz"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.facebook.com/QueereFrauenLinz</a
-      >
+      <a href="https://www.facebook.com/QueereFrauenLinz" target="_blank" rel="noopener noreferrer">www.facebook.com/QueereFrauenLinz</a>
     </p>
   </li>
 </ul>
@@ -299,21 +209,11 @@ LGBTQI+ Community haben.
       statt.
     </p>
     <p>
-      <a
-        href="https://younited.cc/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >younited.cc</a
-      >
+      <a href="https://younited.cc/" target="_blank" rel="noopener noreferrer">younited.cc</a>
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/younitedlinz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@younitedlinz</a
-      >
+      <a href="https://www.instagram.com/younitedlinz/" target="_blank" rel="noopener noreferrer">@younitedlinz</a>
     </p>
   </li>
   <li>
@@ -324,21 +224,11 @@ LGBTQI+ Community haben.
       Bar „FortyNine" in der Schillerstraße 49, 4020 Linz.
     </p>
     <p>
-      <a
-        href="https://www.hosilinz.at/kiki/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.hosilinz.at/kiki</a
-      >
+      <a href="https://www.hosilinz.at/kiki/" target="_blank" rel="noopener noreferrer">www.hosilinz.at/kiki</a>
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/kiki.hosilinz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@kiki.hosilinz</a
-      >
+      <a href="https://www.instagram.com/kiki.hosilinz/" target="_blank" rel="noopener noreferrer">@kiki.hosilinz</a>
     </p>
   </li>
   <li>
@@ -350,51 +240,26 @@ LGBTQI+ Community haben.
     <p>Landwiedstraße 65</p>
     <p>4020 Linz</p>
     <p>
-      <a
-        href="https://www.tsc-wechselschritt.at"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.tsc-wechselschritt.at</a
-      >
+      <a href="https://www.tsc-wechselschritt.at" target="_blank" rel="noopener noreferrer">www.tsc-wechselschritt.at</a>
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/tsc.wechselschritt.linz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@tsc.wechselschritt.linz</a
-      >
+      <a href="https://www.instagram.com/tsc.wechselschritt.linz/" target="_blank" rel="noopener noreferrer">@tsc.wechselschritt.linz</a>
     </p>
   </li>
   <li>
     <em>Steelcity Snidgets - ASKÖ Quidditch Linz</em>
     <p>Quidditch/Quadball Verein.</p>
     <p>
-      <a
-        href="https://snidgets.quidditch-ooe.at"
-        target="_blank"
-        rel="noopener noreferrer"
-        >snidgets.quidditch-ooe.at</a
-      >
+      <a href="https://snidgets.quidditch-ooe.at" target="_blank" rel="noopener noreferrer">snidgets.quidditch-ooe.at</a>
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/steelcitysnidgets"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@steelcitysnidgets</a
-      >
+      <a href="https://www.instagram.com/steelcitysnidgets" target="_blank" rel="noopener noreferrer">@steelcitysnidgets</a>
     </p>
     <p>
       Facebook:
-      <a
-        href="https://www.facebook.com/steelcitysnidgets"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.facebook.com/steelcitysnidgets</a
-      >
+      <a href="https://www.facebook.com/steelcitysnidgets" target="_blank" rel="noopener noreferrer">www.facebook.com/steelcitysnidgets</a>
     </p>
   </li>
 </ul>
@@ -407,12 +272,7 @@ LGBTQI+ Community haben.
     <p>Lederergasse 7</p>
     <p>4020 Linz</p>
     <p>
-      <a
-        href="https://vjf.at/ann-and-pat/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >vjf.at/ann-and-pat</a
-      >
+      <a href="https://vjf.at/ann-and-pat/" target="_blank" rel="noopener noreferrer">vjf.at/ann-and-pat</a>
     </p>
   </li>
   <li>
@@ -420,21 +280,11 @@ LGBTQI+ Community haben.
     <p>Steingasse 5</p>
     <p>4020 Linz</p>
     <p>
-      <a
-        href="https://www.dioezese-linz.at/stuwe"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.dioezese-linz.at/stuwe</a
-      >
+      <a href="https://www.dioezese-linz.at/stuwe" target="_blank" rel="noopener noreferrer">www.dioezese-linz.at/stuwe</a>
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/jugendzentrum_stuwe/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@jugendzentrum_stuwe</a
-      >
+      <a href="https://www.instagram.com/jugendzentrum_stuwe/" target="_blank" rel="noopener noreferrer">@jugendzentrum_stuwe</a>
     </p>
   </li>
 </ul>
@@ -453,21 +303,11 @@ LGBTQI+ Community haben.
     <p>4020 Linz</p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/Game_and_dine"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@Game_and_dine</a
-      >
+      <a href="https://www.instagram.com/Game_and_dine" target="_blank" rel="noopener noreferrer">@Game_and_dine</a>
     </p>
     <p>
       Facebook:
-      <a
-        href="https://www.facebook.com/GameDine"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.facebook.com/GameDine</a
-      >
+      <a href="https://www.facebook.com/GameDine" target="_blank" rel="noopener noreferrer">www.facebook.com/GameDine</a>
     </p>
   </li>
   <li id="forty-nine">
@@ -476,12 +316,7 @@ LGBTQI+ Community haben.
     <p>Schillerstraße 49</p>
     <p>4020 Linz</p>
     <p>
-      <a
-        href="https://www.hosilinz.at/forty-nine"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.hosilinz.at/forty-nine</a
-      >
+      <a href="https://www.hosilinz.at/forty-nine" target="_blank" rel="noopener noreferrer">www.hosilinz.at/forty-nine</a>
     </p>
   </li>
 </ul>

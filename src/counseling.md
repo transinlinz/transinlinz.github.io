@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: 'Beratung — Trans* SHG Linz'
+title: 'Beratung — Trans SHG Linz'
 eleventyNavigation:
   key: Beratung
   title: Beratung
@@ -27,7 +27,7 @@ eleventyNavigation:
 ## Beratungsstellen
 
 <p>
-  Abseits der Trans<span class="inclusion-star">*</span> SHG Linz gibt es in
+  Abseits der Trans SHG Linz gibt es in
   Linz auch andere Anlaufstellen für Beratung zum Thema trans und
   queer-spezifischen Themen.
 </p>
@@ -44,22 +44,11 @@ eleventyNavigation:
     <p>Weißenwolffstraße 17a (EG, nach dem Eingang links)</p>
     <p>4020 Linz</p>
     <p>
-      <a
-        href="https://www.bily.info/"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Öffnet in neuem Fenster"
-        >www.bily.info</a
-      >
+      <a href="https://www.bily.info/" target="_blank" rel="noopener noreferrer" title="Öffnet in neuem Fenster">www.bily.info</a>
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/beratungsstelle_bily/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@beratungsstelle_bily</a
-      >
+      <a href="https://www.instagram.com/beratungsstelle_bily/" target="_blank" rel="noopener noreferrer">@beratungsstelle_bily</a>
     </p>
   </li>
   <li id="courage-linz">
@@ -68,31 +57,18 @@ eleventyNavigation:
       Partner<span class="gender-prefix">innen</span>-, Familien- und
       Sexualberatungsstelle. Bietet kostenlos und anonym Beratung vor allem
       für Lesben, Schwule, Bisexuelle, TransGenderPersonen und ihre
-      Angehörigen an. COURAGE versteht sich als Partner<span
-        class="gender-prefix"
-        >innen</span
-      >-, Familien- und Sexualberatungsstelle und steht in den
+      Angehörigen an. COURAGE versteht sich als Partner<span class="gender-prefix">innen</span>-, Familien- und Sexualberatungsstelle und steht in den
       Themenbereichen Beziehungen und Sexualität sowie Gewalt und sexuelle
       Übergriffe allen Rat- und Hilfesuchenden zur Verfügung.
     </p>
     <p>Weißenwolffstraße 17a (1.OG)</p>
     <p>4020 Linz</p>
     <p>
-      <a
-        href="https://www.courage-beratung.at/mitarbeiterinnen,linz"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.courage-beratung.at/mitarbeiterinnen,linz</a
-      >
+      <a href="https://www.courage-beratung.at/mitarbeiterinnen,linz" target="_blank" rel="noopener noreferrer">www.courage-beratung.at/mitarbeiterinnen,linz</a>
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/courage.austria/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@courage.austria</a
-      >
+      <a href="https://www.instagram.com/courage.austria/" target="_blank" rel="noopener noreferrer">@courage.austria</a>
     </p>
   </li>
   <li id="hosi-linz">
@@ -109,30 +85,15 @@ eleventyNavigation:
     <p>Schillerstraße 49</p>
     <p>4020 Linz</p>
     <p>
-      <a
-        href="https://www.hosilinz.at/beratung/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.hosilinz.at/beratung</a
-      >
+      <a href="https://www.hosilinz.at/beratung/" target="_blank" rel="noopener noreferrer">www.hosilinz.at/beratung</a>
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/hosilinz/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@hosilinz</a
-      >
+      <a href="https://www.instagram.com/hosilinz/" target="_blank" rel="noopener noreferrer">@hosilinz</a>
     </p>
     <p>
       Facebook:
-      <a
-        href="https://www.facebook.com/hosilinz"
-        target="_blank"
-        rel="noopener noreferrer"
-        >www.facebook.com/hosilinz</a
-      >
+      <a href="https://www.facebook.com/hosilinz" target="_blank" rel="noopener noreferrer">www.facebook.com/hosilinz</a>
     </p>
   </li>
   <li id="aidshilfe-ooe">
@@ -148,21 +109,11 @@ eleventyNavigation:
     <p>Blütenstraße 15</p>
     <p>4040 Linz</p>
     <p>
-      <a
-        href="https://www.aidshilfe-ooe.at/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >https://www.aidshilfe-ooe.at/</a
-      >
+      <a href="https://www.aidshilfe-ooe.at/" target="_blank" rel="noopener noreferrer">https://www.aidshilfe-ooe.at/</a>
     </p>
     <p>
       Instagram:
-      <a
-        href="https://www.instagram.com/aidshilfeooe/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >@aidshilfeooe</a
-      >
+      <a href="https://www.instagram.com/aidshilfeooe/" target="_blank" rel="noopener noreferrer">@aidshilfeooe</a>
     </p>
   </li>
 </ul>

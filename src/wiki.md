@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: 'Wissenswertes — Trans* SHG Linz'
+title: 'Wissenswertes — Trans SHG Linz'
 eleventyNavigation:
   key: Wissenswertes
   title: Wissenswertes

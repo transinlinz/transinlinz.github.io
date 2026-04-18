@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: 'Forderungen — Trans* SHG Linz'
+title: 'Forderungen — Trans SHG Linz'
 eleventyNavigation:
   key: Forderungen
   title: Forderungen
@@ -40,87 +40,36 @@ _Stand: 18. Juni 2023_
   aufgestellt:
 </p>
 
-<ol>
-  <li>
-    <em
-      >Umsetzung eines Selbstbestimmungsgesetzes nach dem Vorbild von
-      Portugal.</em
-    >
-  </li>
-  <li>
-    <em
-      >Freie Wahl des Geschlechtseintrages für alle - inklusive „divers",
-      „nicht-binär", etc.</em
-    >
-  </li>
-  <li>
-    <em
-      >Konsequentes Verbot von jeglicher Form von Konversionsbehandlungen</em
-    >
-    (sowohl aufgrund sexueller Orientierung als auch Geschlechtsidentität)
-    inklusive Strafverfolgung auch im Ausland.
-  </li>
-  <li>
-    <em
-      >Ausbau von medizinischer, psychologischer und therapeutischer
-      Versorgung (Psychotherapieplätze, Psychiater<span class="gender-prefix"
-        >innen</span
-      >, Gynäkolog<span class="generic-masculine-prefix">en</span
-      ><span class="gender-prefix">innen</span>/Endokrinolog<span
-        class="generic-masculine-prefix"
-        >en</span
-      ><span class="gender-prefix">innen</span>, etc.).</em
-    >
-  </li>
-  <li>
-    <em
-      >Die Entfernung von Bart und Oberkörperbehaarung bei trans Frauen soll
-      von der Krankenkasse übernommen werden</em
-    >
-    - dafür soll es Ärzte sowohl als auch zertifizierte Studios geben
-    (Ärzt<span class="generic-masculine-prefix">e</span
-    ><span class="gender-prefix">innen</span> sind auf diesem Gebiet nicht
-    unbedingt immer kompetenter als Kosmetikstudios).
-  </li>
-  <li>
-    <em
-      >Entbürokratisierung des Zugangs zu Hormonblockern für transidente
-      Jugendliche</em
-    >
-    - niemand soll gegen den eigenen Willen die falsche Pubertät durchmachen
-    müssen!
-  </li>
-  <li>
-    <em
-      >Diskriminierungsschutz nicht nur im Arbeitsrecht sondern in allen
-      Lebenslagen (<a
-        href="https://www.gleichbehandlungsanwaltschaft.gv.at/wir-ueber-uns/taetigkeitsbericht.html"
-        target="_blank"
-        rel="noopener noreferrer"
-        >„Levelling-Up"</a
-      >)</em
-    >
-    - für ein Verbot von Diskriminierung auf Basis von sexueller Orientierung,
-    Geschlechtsidentität sowie Geschlechtsausdruck.
-  </li>
-  <li>
-    <em
-      >Gezielte Fortbildungen von medizinischem Fachpersonal zum Umgang mit
-      trans, nicht-binären und intergeschlechtlichen Personen.</em
-    >
-  </li>
-  <li>
-    <em
-      >Weiterbildung von Personal in Bildungseinrichtungen zum Thema trans und
-      inter sowie altersgerechtem Umgang mit den Themen Geschlecht und
-      Sexualität.</em
-    >
-  </li>
-  <li>
-    <em
-      >Totalverbot von medizinisch unnötigen geschlechtsangleichenden
-      Eingriffen bei intergeschlechtlichen Kindern</em
-    >
-    (IGM - Intersex Genital Mutilation)!
-  </li>
-</ol>
+1. <em>Umsetzung eines Selbstbestimmungsgesetzes nach dem Vorbild von Portugal.</em>
+
+1. <em>Freie Wahl des Geschlechtseintrages für alle - inklusive „divers", „nicht-binär", etc.</em>
+
+1. <em>Konsequentes Verbot von jeglicher Form von Konversionsbehandlungen</em> (sowohl aufgrund
+   sexueller Orientierung als auch Geschlechtsidentität) inklusive Strafverfolgung auch im Ausland.
+
+1. <em>Ausbau von medizinischer, psychologischer und therapeutischer Versorgung
+   (Psychotherapieplätze, Psychiater<span class="gender-prefix">innen</span>,
+   Gynäkolog<span class="generic-masculine-prefix">en</span><span class="gender-prefix">innen</span>/Endokrinolog<span class="generic-masculine-prefix">en</span><span class="gender-prefix">innen</span>,
+   etc.).</em>
+
+1. <em>Die Entfernung von Bart und Oberkörperbehaarung bei trans Frauen soll von der Krankenkasse
+   übernommen werden</em> - dafür soll es Ärzte sowohl als auch zertifizierte Studios geben
+   (Ärzt<span class="generic-masculine-prefix">e</span><span class="gender-prefix">innen</span> sind
+   auf diesem Gebiet nicht unbedingt immer kompetenter als Kosmetikstudios).
+
+1. <em>Entbürokratisierung des Zugangs zu Hormonblockern für transidente Jugendliche</em> - niemand
+   soll gegen den eigenen Willen die falsche Pubertät durchmachen müssen!
+
+1. <em>Diskriminierungsschutz nicht nur im Arbeitsrecht sondern in allen Lebenslagen
+   (<a href="https://www.gleichbehandlungsanwaltschaft.gv.at/wir-ueber-uns/taetigkeitsbericht.html" target="_blank" rel="noopener noreferrer">„Levelling-Up"</a>)</em> -
+   für ein Verbot von Diskriminierung auf Basis von sexueller Orientierung, Geschlechtsidentität
+   sowie Geschlechtsausdruck.
+
+1. <em>Gezielte Fortbildungen von medizinischem Fachpersonal zum Umgang mit trans, nicht-binären und
+   intergeschlechtlichen Personen.</em>
+
+1. <em>Weiterbildung von Personal in Bildungseinrichtungen zum Thema trans und inter sowie
+   altersgerechtem Umgang mit den Themen Geschlecht und Sexualität.</em>
+
+1. <em>Totalverbot von medizinisch unnötigen geschlechtsangleichenden Eingriffen bei
+   intergeschlechtlichen Kindern</em> (IGM - Intersex Genital Mutilation)!

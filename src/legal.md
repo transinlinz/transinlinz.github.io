@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: 'Impressum — Trans* SHG Linz'
+title: 'Impressum — Trans SHG Linz'
 eleventyNavigation:
   key: Impressum
   title: Impressum
@@ -10,11 +10,11 @@ eleventyNavigation:
 # Impressum
 
 <p>
-  Trans<span class="inclusion-star">*</span> SHG Linz / Oberösterreich
+  Trans SHG Linz / Oberösterreich
   Mitglied des Dachverbands Selbsthilfe OÖ
 </p>
 
-<p>Kontaktperson der Trans<span class="inclusion-star">*</span> SHG:</p>
+<p>Kontaktperson der Trans SHG:</p>
 <dl>
   <dt>Name:</dt>
   <dd>Lena</dd>

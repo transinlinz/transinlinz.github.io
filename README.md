@@ -1,6 +1,7 @@
 # Trans SHG Linz — Homepage
 
-This is the website for the **Trans SHG Linz**, a community space for trans and inter people in Linz. The site provides information about our group, events, support resources, and relevant news.
+This is the website for the **Trans SHG Linz**, a community space for trans and inter people in
+Linz. The site provides information about our group, events, support resources, and relevant news.
 
 **Visit the site:** [transinlinz.info](https://transinlinz.info)
 
@@ -40,7 +41,8 @@ The site builds to `_site/` and is ready to deploy.
 
 - **Eleventy 3.x** + **eleventy-navigation** — Static site generator with multi-page navigation
 - **Nunjucks** — Templating language
-- **SCSS & Tailwind CSS v4** — Custom styles with Tailwind Preflight/normalization only (no utility classes)
+- **SCSS & Tailwind CSS v4** — Custom styles with Tailwind Preflight/normalization only (no utility
+  classes)
 - **PostCSS + Autoprefixer** — CSS processing
 
 ### Project Structure
@@ -74,13 +76,17 @@ src/
 
 ### Architecture Notes
 
-The site is a **multi-page static site** using the `@11ty/eleventy-navigation` plugin. Each section is a standalone `.njk` file in `src/` with `eleventyNavigation` frontmatter (`key`, `title`, `order`). The nav is rendered automatically from the collection in `base.njk`.
+The site is a **multi-page static site** using the `@11ty/eleventy-navigation` plugin. Each section
+is a standalone `.njk` file in `src/` with `eleventyNavigation` frontmatter (`key`, `title`,
+`order`). The nav is rendered automatically from the collection in `base.njk`.
 
-Legacy hash-based URLs (e.g. `/#shg`) are redirected client-side to the correct page via `redirectLegacyHash()` in `main.js`.
+Legacy hash-based URLs (e.g. `/#shg`) are redirected client-side to the correct page via
+`redirectLegacyHash()` in `main.js`.
 
 ### Guidelines
 
-- Run `pnpm run prettier {file}` after editing `.md`, `.yml`, `.json`, `.js`, `.mjs`, `.sass`, `.html`, or `.njk` files
+- Run `pnpm run prettier {file}` after editing `.md`, `.yml`, `.json`, `.js`, `.mjs`, `.sass`,
+  `.html`, or `.njk` files
 - Styles belong in SCSS partials (`src/css/`), not as utility classes in HTML
 - New page sections: add a `.njk` file in `src/` with `eleventyNavigation` frontmatter
 

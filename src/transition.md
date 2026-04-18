@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: 'Transition — Trans* SHG Linz'
+title: 'Transition — Trans SHG Linz'
 eleventyNavigation:
   key: Transition
   title: Transition
@@ -36,16 +36,7 @@ eleventyNavigation:
   Leben zu haben!
 </p>
 <p>
-  Bedauerlicherweise gibt es nach wie vor genug Ärzt<span
-    class="generic-masculine-prefix"
-    >e</span
-  ><span class="gender-prefix">innen</span>, Psycholog<span
-    class="generic-masculine-prefix"
-    >en</span
-  ><span class="gender-prefix">innen</span>/Psychotherapeut<span
-    class="generic-masculine-prefix"
-    >en</span
-  ><span class="gender-prefix">innen</span> etc. die eine sehr stereotype
+  Bedauerlicherweise gibt es nach wie vor genug Ärzt<span class="generic-masculine-prefix">e</span><span class="gender-prefix">innen</span>, Psycholog<span class="generic-masculine-prefix">en</span><span class="gender-prefix">innen</span>/Psychotherapeut<span class="generic-masculine-prefix">en</span><span class="gender-prefix">innen</span> etc. die eine sehr stereotype
   Vorstellung von Geschlechterrollen haben und daher dazu tendieren
   transidenten Menschen in enge Rollenbilder zu drängen die für die
   Betroffenen oft als einengend und unauthentisch empfunden werden. Auch
@@ -95,24 +86,14 @@ eleventyNavigation:
 <p>
   Auf der Grafik in dem PDF ist gut dargestellt wie der Prozess in Österreich
   für transidente Menschen grundsätzlich aussieht:
-  <a
-    href="https://www.sozialministerium.at/dam/jcr:f59fb474-4c35-4924-85a1-9249a7f40aa0/grafik_transsexualismus.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    >Empfehlungen für den Behandlungsprozess bei Geschlechtsdysphorie bzw.
-    Transsexualismus (Schematische Darstellung) (PDF)</a
-  >
+  <a href="https://www.sozialministerium.at/dam/jcr:f59fb474-4c35-4924-85a1-9249a7f40aa0/grafik_transsexualismus.pdf" target="_blank" rel="noopener noreferrer">Empfehlungen für den Behandlungsprozess bei Geschlechtsdysphorie bzw.
+    Transsexualismus (Schematische Darstellung) (PDF)</a>
 </p>
 <p>
   Allerdings ist der erste Teil für die Personenstandsänderung veraltet -
   mittlerweile reicht bereits eine der drei Diagnostiken (daher ist hier auch
   kein Konsensbeschluss mehr notwendig, siehe
-  <a
-    href="https://www.linz.at/serviceguide/viewchapter.php?chapter_id=123357"
-    target="_blank"
-    rel="noopener noreferrer"
-    >linz.at - Änderung des Geschlechtseintrages</a
-  >).
+  <a href="https://www.linz.at/serviceguide/viewchapter.php?chapter_id=123357" target="_blank" rel="noopener noreferrer">linz.at - Änderung des Geschlechtseintrages</a>).
 </p>
 <p>
   Am einfachsten ist es direkt zu einem Psychotherapeuten zu gehen und sich
@@ -129,23 +110,13 @@ eleventyNavigation:
 </p>
 <p>
   Auf der Webseite des Sozialministeriums (
-  <a
-    href="https://www.sozialministerium.at/Themen/Gesundheit/Nicht-uebertragbare-Krankheiten/Psychische-Gesundheit/Transsexualismus-Geschlechtsdysphorie.html"
-    target="_blank"
-    rel="noopener noreferrer"
-    >Transsexualismus/Geschlechtsdysphorie - Empfehlungen für den
-    Behandlungsprozess bei Geschlechts-Dysphorie bzw. Transsexualismus</a
-  >
+  <a href="https://www.sozialministerium.at/Themen/Gesundheit/Nicht-uebertragbare-Krankheiten/Psychische-Gesundheit/Transsexualismus-Geschlechtsdysphorie.html" target="_blank" rel="noopener noreferrer">Transsexualismus/Geschlechtsdysphorie - Empfehlungen für den
+    Behandlungsprozess bei Geschlechts-Dysphorie bzw. Transsexualismus</a>
   ) ist auch ein PDF verlinkt das den Behandlungsprozess für transidente
   Minderjährige in Österreich auf 10 Seiten genauer beschreibt:
-  <a
-    href="https://www.sozialministerium.at/dam/jcr:61c72a41-24e1-49c0-8bda-7669c68cdf4f/Transgender_Empfehlungen_KJ_Stand_14.12.2017_final%20mit%20neuer%20ICD-10-Verlinkung.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    >Empfehlungen für den Behandlungsprozess bei Geschlechtsdysphorie von
+  <a href="https://www.sozialministerium.at/dam/jcr:61c72a41-24e1-49c0-8bda-7669c68cdf4f/Transgender_Empfehlungen_KJ_Stand_14.12.2017_final%20mit%20neuer%20ICD-10-Verlinkung.pdf" target="_blank" rel="noopener noreferrer">Empfehlungen für den Behandlungsprozess bei Geschlechtsdysphorie von
     Kindern und Jugendlichen nach der Klassifikation in der derzeit gültigen
-    DSMbzw. ICD-Fassung (PDF)</a
-  >
+    DSMbzw. ICD-Fassung (PDF)</a>
 </p>
 <p>
   Grundsätzlich ist es in Österreich so, dass vor dem 17. Geburtstag eine

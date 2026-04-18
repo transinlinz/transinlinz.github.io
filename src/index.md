@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
-title: 'Trans* SHG Linz'
-description: 'Webseite der Trans* SHG Linz'
+title: 'Trans SHG Linz'
+description: 'Webseite der Trans SHG Linz'
 keywords: 'trans, transgender, inter, intersex, non-binary, nicht-binär, gender, geschlecht, identität, identity, selbsthilfegruppe, shg, ögk, oegk, linz, lgbt, lgbtq, lgbtqi, lgbtiq, lgbtqia, lsbt, lsbtq'
 author: 'Lena'
 eleventyNavigation:
@@ -33,13 +33,7 @@ eleventyNavigation:
   Beisammensitzen in ein Lokal in der Nähe. Wir haben im Moment kein fixes
   Stammlokal und probieren gerade verschiedene Wirten in der Umgebung durch.
   Es wird aber immer vor jedem Treffen auf
-  <a
-    href="https://www.instagram.com/transinlinz/"
-    target="_blank"
-    rel="noopener noreferrer"
-    title="Öffnet in neuem Fenster"
-    >Instagram</a
-  >
+  <a href="https://www.instagram.com/transinlinz/" target="_blank" rel="noopener noreferrer" title="Öffnet in neuem Fenster">Instagram</a>
   ausgeschrieben in welchem Lokal reserviert wurde.
 </p>
 
@@ -64,24 +58,13 @@ eleventyNavigation:
   nicht mit dem Begriff <em>trans</em> bzw.
   <em>transgender</em> identifizieren können oder wollen.
 
-<img
-    src="/img/trans-umbrella.png"
-    alt="Visuelle Darstellung des sogenannten trans umbrella"
-  />
-<span class="image-description"
-    >Grafik von
-<a
-      href="https://www.gaytascience.com/plot-me-genderfluid/"
-      target="_blank"
-      rel="noopener noreferrer"
-      >www.gaytascience.com/plot-me-genderfluid</a
-    ></span
+<img src="/img/trans-umbrella.png" alt="Visuelle Darstellung des sogenannten trans umbrella" />
+<span class="image-description">Grafik von
+<a href="https://www.gaytascience.com/plot-me-genderfluid/" target="_blank" rel="noopener noreferrer">www.gaytascience.com/plot-me-genderfluid</a></span>
 
->
-
-Wir halten das Modell des <em>trans umbrella</em> (Anspielung auf engl.
-<em>umbrella term</em>, zu Deutsch: Überbegriff) dennoch für das geeignetste
-um das gesamte Spektrum jenseits der cis-Geschlechtlichkeit abzubilden.
+Wir halten das Modell des <em>trans umbrella</em> (Anspielung auf engl. <em>umbrella term</em>, zu
+Deutsch: Überbegriff) dennoch für das geeignetste um das gesamte Spektrum jenseits der
+cis-Geschlechtlichkeit abzubilden.
 
 </p>
 
@@ -103,10 +86,7 @@ um das gesamte Spektrum jenseits der cis-Geschlechtlichkeit abzubilden.
   sich eindeutig als cis-geschlechtlich identifizieren den anderen in der
   Gruppe beim Reden den Vortritt lassen sollten, sodass die wesentlichen
   Themen auch besprochen werden können. Die Gruppe ist auch nicht für cis
-  Personen gedacht die sich einfach nur über das Thema Trans<span
-    class="inclusion-star"
-    >*</span
-  >
+  Personen gedacht die sich einfach nur über das Thema Trans
   informieren wollen, dafür sollten eigens Treffen vereinbart werden oder die
   Fragen an unsere E-Mail-Adresse geschickt werden.
 </p>
@@ -118,7 +98,7 @@ um das gesamte Spektrum jenseits der cis-Geschlechtlichkeit abzubilden.
   überdurchschnittlich viele Menschen mit (teilweise schweren) psychischen
   Erkrankungen. Selbstverständlich sind grundsätzlich
   <em>alle</em> trans Personen herzlich eingeladen unsere Gruppe zu besuchen,
-  allerdings handelt es sich bei der Trans* SHG um ein ehrenamtliches Angebot
+  allerdings handelt es sich bei der Trans SHG um ein ehrenamtliches Angebot
   das von Laien organisiert wird welche keine psychologische bzw.
   psychotherapeutische Ausbildung haben. Aus diesem Grund ist es für uns
   leider nur bedingt möglich angemessen auf die Bedürfnisse von psychisch
@@ -127,23 +107,13 @@ um das gesamte Spektrum jenseits der cis-Geschlechtlichkeit abzubilden.
 <p>
   In diesen Fällen wäre die psychotherapeutische Gruppe der COURAGE Linz
   wahrscheinlich die bessere Option:
-  <a
-    href="https://www.courage-beratung.at/gruppen,TRANS%2A+IDENTITIES+LINZ,30"
-    target="_blank"
-    rel="noopener noreferrer"
-    >TRANS* IDENTITIES LINZ - Psychotherapeutische Gruppe für erwachsene
-    Menschen mit Trans*Gender-Themen</a
-  >.
+  <a href="https://www.courage-beratung.at/gruppen,TRANS%2A+IDENTITIES+LINZ,30" target="_blank" rel="noopener noreferrer">TRANS* IDENTITIES LINZ - Psychotherapeutische Gruppe für erwachsene
+    Menschen mit Transgender-Themen</a>.
 </p>
 <p>
   Bei akuten psychischen Krisen steht die Krisenhilfe rund um die Uhr
   telefonisch zur Verfügung:
-  <a
-    href="https://www.krisenhilfeooe.at/kontakt/"
-    target="_blank"
-    rel="noopener noreferrer"
-    >Krisenhilfe OÖ und Kriseninterventionszentrum Linz</a
-  >.
+  <a href="https://www.krisenhilfeooe.at/kontakt/" target="_blank" rel="noopener noreferrer">Krisenhilfe OÖ und Kriseninterventionszentrum Linz</a>.
 </p>
 
 <p>
@@ -163,10 +133,7 @@ um das gesamte Spektrum jenseits der cis-Geschlechtlichkeit abzubilden.
 
 <p>
   Wir haben auch einen eigenen geschlossenen Discord-Server, dieser ist
-  allerdings nur für Kommunikation der aktiven SHG Teilnehmer<span
-    class="gender-prefix"
-    >innen</span
-  >
+  allerdings nur für Kommunikation der aktiven SHG Teilnehmer<span class="gender-prefix">innen</span>
   untereinander gedacht. Bei Interesse einfach die Gruppenleitung nach dem
   Einladungslink beim ersten Besuch in der Selbsthilfegruppe, dem
   <em>TIN Treff Linz</em> oder dem <em>Queeren Spieleabend</em>
@@ -178,12 +145,10 @@ um das gesamte Spektrum jenseits der cis-Geschlechtlichkeit abzubilden.
   nie der Fall, und wird voraussichtlich auch zukünftig nicht der Fall sein.
 </p>
 <p>
-  <b
-    >Wir verschicken <em>keine</em> Discord Invite-Links an Leute die nicht
+  <b>Wir verschicken <em>keine</em> Discord Invite-Links an Leute die nicht
     zumindest einmal bei einem <em>Trans SHG</em> Treffen, beim
     <em>TIN Treff Linz</em> oder dem <em>Queeren Spieleabend</em> teilgenommen
-    haben!</b
-  >
+    haben!</b>
 </p>
 
 ## Bitte beachte unsere Gruppenregeln!

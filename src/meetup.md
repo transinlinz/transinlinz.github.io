@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: 'TIN Treff Linz — Trans* SHG Linz'
+title: 'TIN Treff Linz — Trans SHG Linz'
 eleventyNavigation:
   key: TIN Treff Linz
   title: TIN Treff Linz
@@ -15,12 +15,7 @@ eleventyNavigation:
   Mit November 2025 gibt es zusätzlich ein monatliches Treffen welches jeden
   1. Freitag im Monat (sofern nicht anders angekündigt) ab 18:00 im
   <em>last by Schachermayer</em>,
-  <a
-    href="https://maps.app.goo.gl/bu8AUdEFt7ZkpMrx8"
-    target="_blank"
-    rel="noopener noreferrer"
-    >Lastenstraße 42, 4020 Linz</a
-  >
+  <a href="https://maps.app.goo.gl/bu8AUdEFt7ZkpMrx8" target="_blank" rel="noopener noreferrer">Lastenstraße 42, 4020 Linz</a>
   stattfindet.
 </p>
 <p>
@@ -50,10 +45,5 @@ eleventyNavigation:
 
 <p>
   Instagram:
-  <a
-    href="https://www.instagram.com/tin.treff.linz"
-    target="_blank"
-    rel="noopener noreferrer"
-    >@tin.treff.linz</a
-  >
+  <a href="https://www.instagram.com/tin.treff.linz" target="_blank" rel="noopener noreferrer">@tin.treff.linz</a>
 </p>

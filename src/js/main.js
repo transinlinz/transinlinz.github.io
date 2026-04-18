@@ -41,15 +41,10 @@ function applyUserSettings() {
   document.getElementById('accessiblity-toggle').checked =
     disableInclusiveLanguage;
 
-  document.title = disableInclusiveLanguage
-    ? 'Trans SHG Linz'
-    : 'Trans* SHG Linz';
+  document.title = 'Trans SHG Linz';
   document
     .getElementById('trans-shg-logo')
-    .setAttribute(
-      'alt',
-      disableInclusiveLanguage ? 'Trans SHG Linz Logo' : 'Trans* SHG Linz Logo',
-    );
+    .setAttribute('alt', 'Trans SHG Linz Logo');
   document.documentElement.style.setProperty(
     '--inclusive-language-display',
     disableInclusiveLanguage ? 'none' : 'inline',
