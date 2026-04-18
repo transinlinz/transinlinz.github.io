@@ -29,6 +29,10 @@
 
 header {
   background-image: url('../img/pexels-katie-rainbow-640.jpg');
+  background-image: image-set(
+    url('../img/pexels-katie-rainbow-640.avif') type('image/avif'),
+    url('../img/pexels-katie-rainbow-640.jpg') type('image/jpeg')
+  );
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,32 +40,50 @@ header {
   height: 28vh;
   min-height: 120px;
   max-height: 260px;
-  margin-top: $nav-height-mobile;
 
   @media (min-width: $bp-sm) {
     background-image: url('../img/pexels-katie-rainbow-768.jpg');
+    background-image: image-set(
+      url('../img/pexels-katie-rainbow-768.avif') type('image/avif'),
+      url('../img/pexels-katie-rainbow-768.jpg') type('image/jpeg')
+    );
     height: 32vh;
     max-height: 300px;
   }
 
   @media (min-width: $bp-md) {
     background-image: url('../img/pexels-katie-rainbow-1024.jpg');
-    margin-top: $nav-height-desktop;
+    background-image: image-set(
+      url('../img/pexels-katie-rainbow-1024.avif') type('image/avif'),
+      url('../img/pexels-katie-rainbow-1024.jpg') type('image/jpeg')
+    );
     height: 35vh;
     max-height: 340px;
   }
 
   @media (min-width: $bp-lg) {
     background-image: url('../img/pexels-katie-rainbow-1280.jpg');
+    background-image: image-set(
+      url('../img/pexels-katie-rainbow-1280.avif') type('image/avif'),
+      url('../img/pexels-katie-rainbow-1280.jpg') type('image/jpeg')
+    );
     max-height: 380px;
   }
 
   @media (min-width: $bp-xl) {
     background-image: url('../img/pexels-katie-rainbow-1536.jpg');
+    background-image: image-set(
+      url('../img/pexels-katie-rainbow-1536.avif') type('image/avif'),
+      url('../img/pexels-katie-rainbow-1536.jpg') type('image/jpeg')
+    );
   }
 
   @media (min-width: $bp-2xl) {
     background-image: url('../img/pexels-katie-rainbow-5616.jpg');
+    background-image: image-set(
+      url('../img/pexels-katie-rainbow-5616.avif') type('image/avif'),
+      url('../img/pexels-katie-rainbow-5616.jpg') type('image/jpeg')
+    );
   }
 }
 
