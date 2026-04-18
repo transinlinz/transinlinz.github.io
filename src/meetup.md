@@ -1,0 +1,59 @@
+---
+layout: layouts/base.njk
+title: 'TIN Treff Linz — Trans* SHG Linz'
+eleventyNavigation:
+  key: TIN Treff Linz
+  title: TIN Treff Linz
+  order: 4
+---
+
+# TIN Treff Linz (TTL)
+
+## Unverbindliches Zusatztreffen
+
+<p>
+  Mit November 2025 gibt es zusätzlich ein monatliches Treffen welches jeden
+  1. Freitag im Monat (sofern nicht anders angekündigt) ab 18:00 im
+  <em>last by Schachermayer</em>,
+  <a
+    href="https://maps.app.goo.gl/bu8AUdEFt7ZkpMrx8"
+    target="_blank"
+    rel="noopener noreferrer"
+    >Lastenstraße 42, 4020 Linz</a
+  >
+  stattfindet.
+</p>
+<p>
+  Unsere Treffen bieten eine gute Möglichkeit sich mit anderen Leuten zu
+  treffen und auszutauschen die Teil des Trans-, Inter- und
+  Nicht-Binären-Spektrums (TIN) sind. Die Begriffe Trans und Nicht-Binär
+  umfassen dabei angefangen von binärer Transidentität über nicht-binäre,
+  agender wie auch genderfluide Identitäten bis hin zu Leuten die
+  genderqueer oder gender non-conforming sind. Grundsätzlich sind
+  selbstverständlich auch alle aus der LGBTQI+ Community herzlich
+  willkommen!
+</p>
+<p>
+  Eine Anmeldung ist nicht erforderlich und es besteht auch keinerlei
+  Konsumzwang.
+</p>
+
+## Verhaltensregeln
+
+<p>
+  Für Treffen gelten die Regeln 1-4 der
+  <a href="/code-of-conduct/">Gruppenregeln der Trans SHG Linz</a>! Lies sie
+  dir also bitte kurz durch bevor du zum ersten Mal vorbeischaust.
+</p>
+
+## Social Media
+
+<p>
+  Instagram:
+  <a
+    href="https://www.instagram.com/tin.treff.linz"
+    target="_blank"
+    rel="noopener noreferrer"
+    >@tin.treff.linz</a
+  >
+</p>
