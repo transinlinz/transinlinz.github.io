@@ -2,6 +2,7 @@
 // Tailwind base/reset is injected by the build pipeline (eleventy.config.mjs)
 // Custom SCSS partials follow:
 
+@use 'fonts';
 @use 'base';
 @use 'nav';
 @use 'layout';

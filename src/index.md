@@ -58,7 +58,7 @@ eleventyNavigation:
   nicht mit dem Begriff <em>trans</em> bzw.
   <em>transgender</em> identifizieren können oder wollen.
 
-<picture><source srcset="/img/trans-umbrella.avif" type="image/avif" /><img src="/img/trans-umbrella.png" alt="Visuelle Darstellung des sogenannten trans umbrella" /></picture>
+<picture><source srcset="/img/trans-umbrella.avif" type="image/avif" /><img src="/img/trans-umbrella.avif" alt="Visuelle Darstellung des sogenannten trans umbrella" width="900" height="587" /></picture>
 <span class="image-description">Grafik von
 <a href="https://www.gaytascience.com/plot-me-genderfluid/" target="_blank" rel="noopener noreferrer">www.gaytascience.com/plot-me-genderfluid</a></span>
 

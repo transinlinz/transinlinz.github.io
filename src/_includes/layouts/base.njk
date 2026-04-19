@@ -21,11 +21,55 @@
       <meta name="author" content="{{ author }}" />
     {% endif %}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Preload critical font (latin subset covers German text) -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="/fonts/montserrat-latin-wght-normal.woff2"
+      crossorigin
+    />
+
+    <!-- Preload hero background image per breakpoint for LCP discovery -->
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      href="/img/pexels-katie-rainbow-640.avif"
+      media="(max-width: 639px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      href="/img/pexels-katie-rainbow-768.avif"
+      media="(min-width: 640px) and (max-width: 767px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      href="/img/pexels-katie-rainbow-1024.avif"
+      media="(min-width: 768px) and (max-width: 1023px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      href="/img/pexels-katie-rainbow-1280.avif"
+      media="(min-width: 1024px) and (max-width: 1279px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="image"
+      type="image/avif"
+      href="/img/pexels-katie-rainbow-1536.avif"
+      media="(min-width: 1280px)"
+      fetchpriority="high"
     />
   </head>
   <body>
@@ -39,9 +83,12 @@
           <picture>
             <source srcset="/img/trans-shg-logo.avif" type="image/avif" />
             <img
-              src="/img/trans-shg-logo.png"
+              src="/img/trans-shg-logo.avif"
               id="trans-shg-logo"
               alt="Trans SHG Linz Logo"
+              width="640"
+              height="320"
+              fetchpriority="high"
             />
           </picture>
         </a>
