@@ -45,35 +45,6 @@ The site builds to `_site/` and is ready to deploy.
   classes)
 - **PostCSS + Autoprefixer** — CSS processing
 
-### Project Structure
-
-```
-src/
-  index.njk                    # Home page
-  shg.njk
-  code-of-conduct.njk
-  demands.njk
-  meetup.njk
-  counseling.njk
-  queer-in-linz.njk
-  transition.njk
-  wiki.njk
-  legal.njk
-  _includes/
-    layouts/base.njk           # Base HTML layout (nav, header, footer)
-  css/
-    main.scss                  # Imports all partials
-    _variables.scss            # Design tokens
-    _base.scss
-    _nav.scss
-    _layout.scss
-    _content.scss
-    _print.scss
-  js/
-    main.js                    # Email obfuscation, hamburger menu, legacy redirect
-    plugins.js
-```
-
 ### Architecture Notes
 
 The site is a **multi-page static site** using the `@11ty/eleventy-navigation` plugin. Each section
