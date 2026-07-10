@@ -111,16 +111,14 @@ _Stand: 30. Dezember 2025_
 
 <small id="fn-1"><a href="#fnref-1"><sup>1</sup></a> Unter dem Begriff „Transmedicalism" versteht
 man reaktionäre Anschauungen, die besagen, man sei nur dann wirklich trans, wenn man auch
-geschlechtsangleichende Maßnahmen anstrebt (Hormontherapie, OPs, etc.).
-<a href="#fnref-1" aria-label="Zurück zur Referenz">↩</a></small>
+geschlechtsangleichende Maßnahmen anstrebt (Hormontherapie, OPs, etc.).</small>
 
 <small id="fn-2"><a href="#fnref-2"><sup>2</sup></a> Da die verfügbare Zeit bei den Treffen begrenzt
 ist, sollten Teilnehmende, die sich klar als cis-geschlechtlich identifizieren, den anderen in der
 Gruppe beim Reden den Vortritt lassen. Der hauptsächliche Zweck der Gruppe ist Hilfe zur Selbsthilfe
 und Austausch unter trans bzw. möglicherweise trans Menschen und nicht die Aufklärung von cis
-Personen. <a href="#fnref-2" aria-label="Zurück zur Referenz">↩</a></small>
+Personen.</small>
 
 <small id="fn-3"><a href="#fnref-3"><sup>3</sup></a> Damit sind ausdrücklich nicht ärztlich
 verordnete Medikamente wie zB Ritalin, Elvanse, Xanor, Antidepressiva oder Ähnliches gemeint, selbst
-wenn diese die Aufmerksamkeit oder Verkehrstüchtigkeit einschränken können.
-<a href="#fnref-3" aria-label="Zurück zur Referenz">↩</a></small>
+wenn diese die Aufmerksamkeit oder Verkehrstüchtigkeit einschränken können.</small>

@@ -132,9 +132,8 @@ src/
 
 - Anchor targets use `id="kebab-case"` on the target element (no `<a name="...">`, no `{#...}`).
   - Examples: `<li id="bily">`, `<small id="fn-1">`.
-- Links use plain fragment hrefs: `<a href="#bily">`, `<a href="/counseling/#bily">` for
-  cross-page.
+- Links use plain fragment hrefs: `<a href="#bily">`, `<a href="/counseling/#bily">` for cross-page.
 - **Footnotes** follow a bidirectional pattern:
   - Reference (inline): `<a href="#fn-N" id="fnref-N"><sup>N</sup></a>`
-  - Definition (page bottom): `<small id="fn-N"><a href="#fnref-N"><sup>N</sup></a> … <a href="#fnref-N" aria-label="Zurück zur Referenz">↩</a></small>`
-  - N is the footnote number. The `↩` back-link returns focus to the reference.
+  - Definition (page bottom): `<small id="fn-N"><a href="#fnref-N"><sup>N</sup></a> …</small>`
+  - N is the footnote number.
