@@ -10,3 +10,5 @@ pnpm-lock.yaml
 
 **/.git
 **/node_modules
+
+src/js/vendor/**
