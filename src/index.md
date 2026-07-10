@@ -30,11 +30,8 @@ eleventyNavigation:
 
 <p>
   Nach jedem Treffen geht es dann noch auf ein gemütliches Abendessen und
-  Beisammensitzen in ein Lokal in der Nähe. Wir haben im Moment kein fixes
-  Stammlokal und probieren gerade verschiedene Wirten in der Umgebung durch.
-  Es wird aber immer vor jedem Treffen auf
-  <a href="https://www.instagram.com/transinlinz/" target="_blank" rel="noopener noreferrer" title="Öffnet in neuem Fenster">Instagram</a>
-  ausgeschrieben in welchem Lokal reserviert wurde.
+  Beisammensitzen in der <a href="https://hofkneipe.at/" target="_blank" rel="noopener noreferrer" title="Öffnet in neuem Fenster">Hofkneipe</a>.
+  Die Treffen werden immer eine Woche vorher auf <a href="https://www.instagram.com/transinlinz/" target="_blank" rel="noopener noreferrer" title="Öffnet in neuem Fenster">Instagram</a> ausgeschrieben.
 </p>
 
 ## Für wen ist diese Selbsthilfegruppe gedacht?
@@ -125,10 +122,7 @@ cis-Geschlechtlichkeit abzubilden.
 ## Allgemeine Infos
 
 <p>
-  Nachdem mittlerweile alle Covid-Auflagen aufgehoben wurden, gibt es keine
-  Obergrenze für die Gruppengröße und keine FFP2-Maskenpflicht mehr. Es ist
-  also <em>keine</em> Anmeldung mehr notwendig, du kannst einfach
-  vorbeikommen!
+  Es ist <em>keine</em> An- oder Abmeldung notwendig, einfach vorbeikommen! Wenn ihr erst später kommen könnt oder früher wieder weg müsst - alles kein Problem.
 </p>
 
 <p>
