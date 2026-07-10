@@ -9,17 +9,17 @@ eleventyNavigation:
 
 # Unsere Forderungen
 
-_Stand: 18. Juni 2023_
+_Stand: 11. Juli 2026_
 
 <p>
-  Wenn man so manchem beim Reden zuhört möchte man fast meinen die LGBTQI+
+  Wenn man manchen Leuten beim Reden zuhört, möchte man fast meinen, die LGBTQI+
   Community hätte mittlerweile schon alles erreicht. Bei näherem Hinsehen
   zeigen sich jedoch deutliche Lücken im Gesetz, von der tatsächlichen
   gesellschaftlichen Akzeptanz von queeren Menschen einmal ganz abgesehen.
   Auch wenn zumindest Homosexualität in den letzten zwei Jahrzehnten -
   besonders in den urbanen Zentren - deutlich entstigmatisiert wurde, ist die
-  Situation für transidente Personen doch immer noch eine andere. Wir sind
-  viel sichtbarer in der Öffentlichkeit was uns auch gleichzeitig
+  Situation für trans Personen doch immer noch eine andere. Wir sind
+  viel sichtbarer in der Öffentlichkeit, was uns auch gleichzeitig
   verletzlicher macht.
 </p>
 
@@ -28,48 +28,47 @@ _Stand: 18. Juni 2023_
   einer Personenstandsänderung und medizinischer Hilfe in Form von einer
   Hormonersatztherapie oder geschlechtsangleichenden Operationen. Der Zugang
   dazu ist immer noch sehr bürokratisch und nicht selten werden Betroffene mit
-  Gatekeeping im Gesundheitssystem konfrontiert das ihnen eigentlich helfen
+  Gatekeeping im Gesundheitssystem konfrontiert, das ihnen eigentlich helfen
   sollte. Stattdessen wird ihre Transidentität offen in Frage gestellt und im
   schlimmsten Fall zahlt man dann auch noch für eine negative Diagnostik.
 </p>
 
 <p>
   Um die bestehenden Missstände im System sichtbarer zu machen und um klar
-  aufzuzeigen was wir als Community noch einfordern müssen um zu unserem Recht
+  aufzuzeigen, was wir als Community noch einfordern müssen, um zu unserem Recht
   zu kommen, haben wir die folgende Liste mit politischen Forderungen
   aufgestellt:
 </p>
 
-1. <em>Umsetzung eines Selbstbestimmungsgesetzes nach dem Vorbild von Portugal.</em>
+1. <em>Umsetzung eines Selbstbestimmungsgesetzes nach dem Vorbild von Argentinien.</em>
 
-1. <em>Freie Wahl des Geschlechtseintrages für alle - inklusive „divers", „nicht-binär", etc.</em>
-
-1. <em>Konsequentes Verbot von jeglicher Form von Konversionsbehandlungen</em> (sowohl aufgrund
+2. <em>Konsequentes Verbot von jeglicher Form von Konversionsbehandlungen</em> (sowohl aufgrund
    sexueller Orientierung als auch Geschlechtsidentität) inklusive Strafverfolgung auch im Ausland.
 
-1. <em>Ausbau von medizinischer, psychologischer und therapeutischer Versorgung
+3. <em>Ausbau von medizinischer, psychologischer und therapeutischer Versorgung
    (Psychotherapieplätze, Psychiater<span class="gender-prefix">innen</span>,
    Gynäkolog<span class="generic-masculine-prefix">en</span><span class="gender-prefix">innen</span>/Endokrinolog<span class="generic-masculine-prefix">en</span><span class="gender-prefix">innen</span>,
    etc.).</em>
 
-1. <em>Die Entfernung von Bart und Oberkörperbehaarung bei trans Frauen soll von der Krankenkasse
-   übernommen werden</em> - dafür soll es Ärzte sowohl als auch zertifizierte Studios geben
+4. <em>Die Entfernung von Bart und Oberkörperbehaarung bei trans Frauen soll von der Krankenkasse
+   übernommen werden</em> (zumindest die Grundbehandlung) - dafür soll es Ärzte sowohl als auch
+   zertifizierte Studios geben
    (Ärzt<span class="generic-masculine-prefix">e</span><span class="gender-prefix">innen</span> sind
-   auf diesem Gebiet nicht unbedingt immer kompetenter als Kosmetikstudios).
+   auf diesem Gebiet nicht unbedingt kompetenter als Beautysalons).
 
-1. <em>Entbürokratisierung des Zugangs zu Hormonblockern für transidente Jugendliche</em> - niemand
-   soll gegen den eigenen Willen die falsche Pubertät durchmachen müssen!
+5. <em>Entbürokratisierung des Zugangs zu Hormonblockern für trans Jugendliche</em> - niemand soll
+   gegen den eigenen Willen die falsche Pubertät durchmachen müssen!
 
-1. <em>Diskriminierungsschutz nicht nur im Arbeitsrecht sondern in allen Lebenslagen
+6. <em>Diskriminierungsschutz nicht nur im Arbeitsrecht sondern in allen Lebenslagen
    (<a href="https://www.gleichbehandlungsanwaltschaft.gv.at/wir-ueber-uns/taetigkeitsbericht.html" target="_blank" rel="noopener noreferrer">„Levelling-Up"</a>)</em> -
    für ein Verbot von Diskriminierung auf Basis von sexueller Orientierung, Geschlechtsidentität
-   sowie Geschlechtsausdruck.
+   oder Geschlechtsausdruck.
 
-1. <em>Gezielte Fortbildungen von medizinischem Fachpersonal zum Umgang mit trans, nicht-binären und
-   intergeschlechtlichen Personen.</em>
+7. <em>Verpflichtende Weiterbildung von medizinischem Fachpersonal zum Umgang mit trans,
+   nicht-binären und intergeschlechtlichen Personen.</em>
 
-1. <em>Weiterbildung von Personal in Bildungseinrichtungen zum Thema trans und inter sowie
+8. <em>Weiterbildung von Personal in Bildungseinrichtungen zum Thema trans und inter sowie
    altersgerechtem Umgang mit den Themen Geschlecht und Sexualität.</em>
 
-1. <em>Totalverbot von medizinisch unnötigen geschlechtsangleichenden Eingriffen bei
-   intergeschlechtlichen Kindern</em> (IGM - Intersex Genital Mutilation)!
+9. <em>Totalverbot von medizinisch unnötigen geschlechtsangleichenden Eingriffen bei
+   intergeschlechtlichen Kindern</em> (Intersex Genital Mutilation, kurz: IGM)!
