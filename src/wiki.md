@@ -37,7 +37,7 @@ _Hier entsteht künftig noch ein FAQ zum Thema Transgender._
       Veraltete Vorstellung, dass körperliche Merkmale wie Hormone,
       Chromosomen und Anatomie das Geschlecht eines Menschen festlegen und
       eindeutig einer von zwei Kategorien zugeordnet werden können (männlich
-      und weiblich). Diese Vorstellung trifft auf unterschiedliche Arten z. B.
+      und weiblich). Diese Vorstellung trifft auf unterschiedliche Arten zB
       auf inter und trans Personen nicht zu.
     </p>
   </li>
@@ -98,7 +98,7 @@ _Hier entsteht künftig noch ein FAQ zum Thema Transgender._
       Normvorstellung von weiblichen oder männlichen Körpern entsprechen. Das
       kann auf anatomischer, genetischer und/oder hormoneller Ebene sein.
       Intergeschlechtlichkeit kann bei der Geburt oder in der Pubertät oder
-      auch erst im erwachsenen Alter (z.B: bei Kinderwunsch) entdeckt werden.
+      auch erst im erwachsenen Alter (zB bei Kinderwunsch) entdeckt werden.
       Beispiel: Eine Person mit XY-Chromosomen ("männlich") und hohem
       Östrogenspiegel ("weiblich"). Durch die große Vielfalt wird hier auch
       von Variationen der Geschlechtsmerkmale gesprochen. Gegenteil von: peri
@@ -119,7 +119,7 @@ _Hier entsteht künftig noch ein FAQ zum Thema Transgender._
       Steht für Lesbisch, Schwul (engl. "Gay"), Bi, Trans, Queer, Inter,
       Asexuell/Aromantisch/Agender. Das Plus steht für andere queere
       Identitäten, die in der Abkürzung nicht explizit genannt werden. Hier
-      gibt es viele Variationen, z. B. LSBTQIA, LGBTQIA+, LGBTIQ, LGBT
+      gibt es viele Variationen, zB LSBTQIA, LGBTQIA+, LGBTIQ, LGBT
     </p>
   </li>
   <li>
@@ -135,7 +135,7 @@ _Hier entsteht künftig noch ein FAQ zum Thema Transgender._
     <em>Neopronomen</em>
     <p>
       Wortneuschöpfungen, genutzt als Pronomen von Personen, die sich mit den
-      "traditionellen" Pronomen "sie" und "er" nicht identifizieren (z. B.
+      "traditionellen" Pronomen "sie" und "er" nicht identifizieren (zB
       manche nicht-binäre Personen). Beispiel: "dey" und "deren" im Satz: "Dey
       geht in deren Haus".
     </p>
@@ -199,7 +199,7 @@ _Hier entsteht künftig noch ein FAQ zum Thema Transgender._
       Beschreibt, ob und für welche Menschen jemand romantische Gefühle
       ("Verliebtheit") haben kann, oft auf Basis ihres Geschlechts. Die
       romantische Orientierung muss sich nicht mit der sexuellen Orientierung
-      decken, das heißt eine Person kann z. B. homosexuell und aromantisch
+      decken, das heißt eine Person kann zB homosexuell und aromantisch
       sein.
     </p>
   </li>
@@ -209,7 +209,7 @@ _Hier entsteht künftig noch ein FAQ zum Thema Transgender._
       Beschreibt, ob und für welche Menschen jemand sexuelle Anziehung
       verspüren kann, oft auf Basis ihres Geschlechts. Die sexuelle
       Orientierung muss sich nicht mit der romantischen Orientierung decken,
-      das heißt eine Person kann z. B. homosexuell und aromantisch sein.
+      das heißt eine Person kann zB homosexuell und aromantisch sein.
     </p>
   </li>
   <li>

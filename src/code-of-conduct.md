@@ -91,9 +91,9 @@ _Stand: 30. Dezember 2025_
 1. <em>Nüchternheit</em> — Die Teilnahme an unseren Treffen ist nur in nüchternem Zustand gestattet,
    sprich nicht in betrunkenem Zustand oder unter Einfluss illegaler Drogen!<sup>3</sup>
 
-   <small><sup>3</sup> Damit sind ausdrücklich nicht ärztlich verordnete Medikamente wie z. B.
-   Ritalin, Elvanse, Xanor, Antidepressiva oder Ähnliches gemeint, selbst wenn diese die
-   Aufmerksamkeit oder Verkehrstüchtigkeit einschränken können.</small>
+   <small><sup>3</sup> Damit sind ausdrücklich nicht ärztlich verordnete Medikamente wie zB Ritalin,
+   Elvanse, Xanor, Antidepressiva oder Ähnliches gemeint, selbst wenn diese die Aufmerksamkeit oder
+   Verkehrstüchtigkeit einschränken können.</small>
 
 1. <em>Geschirr wegräumen</em> — Bitte nie Geschirr einfach in den Gruppenräumen stehen lassen oder
    in das Spülbecken stellen. Nach den Gruppentreffen sind alle Gläser und Geschirr aus der Küche in
