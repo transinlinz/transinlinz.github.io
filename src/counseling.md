@@ -38,7 +38,7 @@ eleventyNavigation:
     <p>
       Verein für Jugend-, Familien- und Sexualberatung. Behandelt werden
       Fragen rund um die Paarbeziehung, Ehe, Sexualität, Verhütung,
-      Schwangerschaft, Schwangerschaftsabbruch, Identität (z.B.
+      Schwangerschaft, Schwangerschaftsabbruch, Identität (zB
       Transidentität), erste Liebe und Pornographie.
     </p>
     <p>Weißenwolffstraße 17a (EG, nach dem Eingang links)</p>
