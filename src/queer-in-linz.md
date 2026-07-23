@@ -16,7 +16,7 @@ Linz und einige Vereine die einen Fokus auf die LGBTQI+ Community haben.
 
 <ul class="contact-list">
   <li>
-    <em>Queeres Nerd Treff Linz</em>
+    <em>Queerer Nerd Treff Linz</em>
     <p>
       Unsere Treffen bieten eine gute Möglichkeit sich mit anderen Leuten zu
       treffen und auszutauschen die Teil des Trans-, Inter- und
@@ -47,7 +47,7 @@ Linz und einige Vereine die einen Fokus auf die LGBTQI+ Community haben.
     </p>
   </li>
   <li>
-    <em>Queerer Spieleabend</em> (veranstaltet von <em>Queeres Nerd Treff Linz</em>)
+    <em>Queerer Spieleabend</em> (veranstaltet von <em>Queerer Nerd Treff Linz</em>)
     <p>
       Dieser entspannte Spieleabend bietet eine Möglichkeit sich mit
       gleichgesinnten Leuten zu treffen und Spaß zu haben! Grundsätzlich

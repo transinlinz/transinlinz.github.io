@@ -1,13 +1,13 @@
 ---
 layout: layouts/base.njk
-title: 'Queeres Nerd Treff Linz — Trans SHG Linz'
+title: 'Queerer Nerd Treff Linz — Trans SHG Linz'
 eleventyNavigation:
-  key: Queeres Nerd Treff Linz
-  title: Queeres Nerd Treff Linz
+  key: Queerer Nerd Treff Linz
+  title: Queerer Nerd Treff Linz
   order: 4
 ---
 
-# Queeres Nerd Treff Linz
+# Queerer Nerd Treff Linz
 
 ## Unverbindliches Zusatztreffen
 
@@ -47,5 +47,5 @@ eleventyNavigation:
 
 <p>
   Instagram:
-  <a href="https://www.instagram.com/tin.treff.linz" target="_blank" rel="noopener noreferrer">@tin.treff.linz</a>
+  <a href="https://www.instagram.com/queerer.nerd.treff.linz" target="_blank" rel="noopener noreferrer">@queerer.nerd.treff.linz</a>
 </p>

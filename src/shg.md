@@ -168,7 +168,7 @@ cis-Geschlechtlichkeit abzubilden.
 <p>
   <b>Wir verschicken <em>keine</em> Discord Invite-Links an Leute die nicht
     zumindest einmal bei einem <em>Trans SHG</em> Treffen, beim
-    <em>Queeres Nerd Treff Linz</em> oder dem <em>Queeren Spieleabend</em> teilgenommen
+    <em>Queerer Nerd Treff Linz</em> oder dem <em>Queeren Spieleabend</em> teilgenommen
     haben!</b>
 </p>
 
