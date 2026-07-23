@@ -1,13 +1,13 @@
 ---
 layout: layouts/base.njk
-title: 'TIN Treff Linz — Trans SHG Linz'
+title: 'Queeres Nerd Treff Linz — Trans SHG Linz'
 eleventyNavigation:
-  key: TIN Treff Linz
-  title: TIN Treff Linz
+  key: Queeres Nerd Treff Linz
+  title: Queeres Nerd Treff Linz
   order: 4
 ---
 
-# TIN Treff Linz (TTL)
+# Queeres Nerd Treff Linz
 
 ## Unverbindliches Zusatztreffen
 
@@ -19,18 +19,20 @@ eleventyNavigation:
   stattfindet.
 </p>
 <p>
-  Unsere Treffen bieten eine gute Möglichkeit sich mit anderen Leuten zu
-  treffen und auszutauschen die Teil des Trans-, Inter- und
-  Nicht-Binären-Spektrums (TIN) sind. Die Begriffe Trans und Nicht-Binär
-  umfassen dabei angefangen von binärer Transidentität über nicht-binäre,
-  agender wie auch genderfluide Identitäten bis hin zu Leuten die
-  genderqueer oder gender non-conforming sind. Grundsätzlich sind
-  selbstverständlich auch alle aus der LGBTQI+ Community herzlich
-  willkommen!
+  Unsere Treffen bieten eine gute Möglichkeit sich mit anderen queeren Leuten zu treffen und miteinander zu plaudern. Es gibt vor Ort auch Wuzeltische und einige Gesellschaftspiele die man sich ausborgen kann.
 </p>
 <p>
-  Eine Anmeldung ist nicht erforderlich und es besteht auch keinerlei
-  Konsumzwang.
+  Wir verstehen uns ausdrücklich als Safer Space für trans, inter und nicht-binäre Personen! Die
+  Begriffe <em>trans</em> und <em>nicht-binär</em> umfassen dabei angefangen von binärer
+  Transidentität über nicht-binäre, agender wie auch genderfluide Identitäten bis hin zu Leuten die
+  genderqueer oder gender non-conforming sind. Transphobie oder andere Formen von Queerphobie haben
+  bei bei uns keinen Platz!
+</p>
+<p>
+  Eine Anmeldung ist nicht erforderlich!
+</p>
+<p>
+  Es gibt keinen Konsumzwang!
 </p>
 
 ## Verhaltensregeln

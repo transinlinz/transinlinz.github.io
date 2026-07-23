@@ -130,7 +130,7 @@ cis-Geschlechtlichkeit abzubilden.
   allerdings nur für Kommunikation der aktiven SHG Teilnehmer<span class="gender-prefix">innen</span>
   untereinander gedacht. Bei Interesse einfach die Gruppenleitung nach dem
   Einladungslink beim ersten Besuch in der Selbsthilfegruppe, dem
-  <em>TIN Treff Linz</em> oder dem <em>Queeren Spieleabend</em>
+  <em>Queeren Nerd Treff Linz</em> oder dem <em>Queeren Spieleabend</em>
   fragen.
 </p>
 <p>
@@ -141,7 +141,7 @@ cis-Geschlechtlichkeit abzubilden.
 <p>
   <b>Wir verschicken <em>keine</em> Discord Invite-Links an Leute die nicht
     zumindest einmal bei einem <em>Trans SHG</em> Treffen, beim
-    <em>TIN Treff Linz</em> oder dem <em>Queeren Spieleabend</em> teilgenommen
+    <em>Queeren Nerd Treff Linz</em> oder dem <em>Queeren Spieleabend</em> teilgenommen
     haben!</b>
 </p>
 
